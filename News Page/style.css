@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: underline;
+    padding-top: 12px;
+}
+
+h5 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #bbbbbb;
+    padding-top: 12px;
+}
+
+/* Navigation CSS */
+
+nav {
+    background-color: #001315;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    float: left;
+    line-height: 70px;
+    padding-left: 60px;
+}
+
+.logo img {
+    width: 32px;    
+    height: 32px;
+    margin-right: 4px;
+}
+
+.logo b {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.logo span {
+    color: #00a9bf;
+    font-weight: 600;
+}
+
+nav:after {
+    content: ' ';
+    clear: both;
+    display: table;
+}
+
+.show, .icon, input {
+    display: none;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    margin-right: 60px;
+    position: relative;
+}
+
+nav ul li {
+    float: left;
+    display: inline;
+    background: #001315;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 18px;
+    padding: 8px 15px;
+}
+
+nav ul li a:hover {
+    color: #00a9bf;
+    text-decoration: #00a9bf underline;
+}
+
+nav ul li a:hover span {
+    color: #00a9bf;
+}
+
+nav ul li button { 
+    background-color: transparent;
+    border: none;
+}
+
+nav ul li button a {
+    padding: 8px 24px;
+    border-radius: 8px;
+}
+
+.sign-in-button {
+    background-color: #FFFFFF;
+    color: #001315;
+    font-weight: 600;
+}
+
+.sign-in-button:hover {
+    text-decoration: none;
+    color: #001315;
+}
+
+.sign-up-button {
+    background-color: #00a9bf;
+    font-weight: 600;
+}
+
+.sign-up-button:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav ul ul {
+    position: absolute;
+    top: 90px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 0.3s;
+}
+
+nav ul li:hover ul {
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+}
+
+nav ul ul li {
+    position: relative;
+    margin: 0;
+    width: 170px;
+    float: none;
+    display: list-item;
+    border-bottom: 1px solid #001315;
+}
+
+nav ul ul li a {
+    line-height: 50px;
+}
+
+/* Header CSS */
+
+header {
+    width: 100%;
+    height: 100%;
+    background-color: #001315;
+    display: flex;
+    justify-content: center;
+}
+
+.page-tittle {
+    box-sizing: border-box;
+    padding: 100px 60px 30px 60px;
+    max-width: 1144px;
+}
+
+.page-tittle h2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/* Section CSS */
+
+section {
+    width: 100%;
+    height: 100%;
+    background-color: #002125;
+    display: flex;
+    justify-content: center;
+}
+
+.news-list-container {
+    width: 1144px;
+    height: 100%;
+    padding: 30px 60px;
+}
+
+.news-list-container-up {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.news-list-container-up a {
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+}
+
+.news-list-container-up a:hover {
+    color: #00a9bf;
+}
+
+.news-list-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.news-list-card {
+    width: 250px;
+    height: 350px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.news-list-card img {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+}
+
+/* Footer CSS */
+
+footer {
+    background-color: #001315;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    width: 1144px;
+    align-items: center;
+    justify-content: space-between;
+    height: 108px;
+}
+
+footer .logo {
+    padding-left: 0;
+}
+
+footer h3 {
+    background-color: #001315;
+    font-size: 12px;
+    width: 100%;
+    padding: 12px 0;
+    text-align: center;
+}
+
+.menu-option a {
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+.menu-option a:hover {
+    color: #00a9bf;
+    text-decoration: #00a9bf underline;
+}
+
+.fa {
+    width: 50px;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 12px;
+    border-radius: 4px;
+}
+
+.fa-facebook {
+    background: grey;
+    color: white;
+}
+  
+.fa-twitter {
+    background: grey;
+    color: white;
+}
+
+.fa-instagram {
+    background: grey;
+    color: white;
+}
+
+.fa-facebook:hover {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-twitter:hover {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram:hover {
+    background: #125688;
+    color: white;
+}
+
+
+@media screen and (max-width: 1150px) {
+    nav ul {
+        margin-right: 0px;
+        float: left;
+    }
+
+    nav .logo {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .logo img {
+        margin-left: 20px;
+    }
+
+    .hamburger-menu-icon {
+        width: 44px;
+        height: 44px;
+    }
+
+    .icon {
+        display: block;
+        position: absolute;
+        right: 20px;
+        line-height: 70px;
+        cursor: pointer;
+        top: 13px;
+    }
+
+    nav ul li {
+        background: none;
+    }
+
+    nav ul li, nav ul ul li {
+        display: block;
+        width: 100%;
+    }
+
+    nav ul ul li {
+        border-bottom: 0px;
+    }
+
+    nav ul ul a {
+        padding-left: 40px;
+    }
+
+    nav ul ul {
+        top: 70px;
+        position: static;
+        border-top: none;
+        float: none;
+        display: none;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .show {
+        display: block;
+        color: #FFFFFF;
+        font-size: 18px;
+        padding: 0 18px;
+        line-height: 70px;
+        cursor: pointer;
+    }
+
+    .button-sign {
+        padding: 0 18px;
+    }
+
+    .show:hover {
+        color: #00a9bf;
+        text-decoration: #00a9bf underline;
+    }
+
+    .show:hover span {
+        color: #00a9bf;
+        text-decoration: #00a9bf underline;
+    }
+
+    .show + a, ul {
+        display: none;
+    }
+
+    [id^=btn]:checked + ul {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 1144px) {
+
+    .news-list-container-up {
+        width: 100%;
+    }
+
+    .trending-container h2 {
+        width: 100%;
+    }
+    
+    .news-list-container h2 {
+        width: 100%;
+    }
+
+    .news-list-container {
+        width: 100%;
+    }
+    
+    .movie-container {
+        width: 100%;
+    }
+
+    .book-container {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1144px) {
+
+    .movie-container {
+        width: 100%;
+    }
+
+    .footer-container {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 60px;
+    }
+
+    footer h3 {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 24px 60px;
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+    .footer-container {
+        height: 100%;
+        gap: 24px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 620px) {
+
+    .news-list-cards {
+        justify-content: center;
+    }
+
+}
+
+
+@media screen and (max-width: 425px) {
+
+    .logo img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .logo b {
+        font-size: 24px;
+    }
+
+    .page-tittle h2 {
+        font-size: 24px;
+    }
+
+    .menu-option {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .news-list-container-up h2 {
+        font-size: 16px;
+    }
+
+    .news-list-container-up a {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .news-list-container {
+        padding: 30px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+
+    .social-media-container {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+}

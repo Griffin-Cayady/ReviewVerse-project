@@ -1,0 +1,2489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReviewVerse | Book</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="x-icon" href="../Assets/Logo Icon - Primary.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="../Assets/Logo Icon.png" alt="logo icon">
+            <b>Review<span>Verse</span></b>
+        </div>
+        <label for="btn" class="icon">
+            <img src="../Assets/Hambuger Menu Icon.png" alt="" class="hamburger-menu-icon">
+        </label>
+        <input type="checkbox" id="btn">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li>
+                <label for="btn-1" class="show">Movie <span>&#11206;</span></label>
+                <a href="../Movie Page/index.html">Movie <span>&#11206;</span></a>
+                <input type="checkbox" id="btn-1">
+                <ul>
+                    <li><a href="../Movie Page/index.html">Trending</a></li>
+                    <li><a href="../Movie Page/index.html">Top Rated</a></li>
+                    <li><a href="../Movie Page/index.html">Coming Soon</a></li>
+                </ul>
+            </li>
+            <li>
+                <label for="btn-2" class="show">Music <span>&#11206;</span></label>
+                <a href="../Music Page/index.html">Music <span>&#11206;</span></a>
+                <input type="checkbox" id="btn-2">
+                <ul>
+                    <li><a href="../Music Page/index.html">Trending</a></li>
+                    <li><a href="../Music Page/index.html">Most Popular</a></li>
+                    <li><a href="../Music Page/index.html">Featured</a></li>
+                </ul>
+            </li>
+            <li>
+                <label for="btn-3" class="show">Book <span>&#11206;</span></label>
+                <a href="../Book Page/index.html">Book <span>&#11206;</span></a>
+                <input type="checkbox" id="btn-3">
+                <ul>
+                    <li><a href="../Book Page/index.html">Trending</a></li>
+                    <li><a href="../Book Page/index.html">Best Sellers</a></li>
+                    <li><a href="../Book Page/index.html">Most Reviewed</a></li>
+                </ul>
+            </li>
+            <li>
+                <label for="btn-4" class="show">News <span>&#11206;</span></label>
+                <a href="../News Page/index.html">News <span>&#11206;</span></a>
+                <input type="checkbox" id="btn-4">
+                <ul>
+                    <li><a href="../News Page/index.html">Trending News</a></li>
+                    <li><a href="../News Page/index.html">Movie News</a></li>
+                    <li><a href="../News Page/index.html">Music News</a></li>
+                    <li><a href="../News Page/index.html">Book News</a></li>
+                </ul>
+            </li>
+            <li class="button-sign"><button><a href="../Sign In Page/index.html" class="sign-in-button">Sign In</a></button></li>
+            <li class="button-sign"><button><a href="../Sign Up Page/index.html" class="sign-up-button">Sign Up</a></button></li>
+        </ul>
+    </nav>
+
+    <Header>
+        <div class="page-tittle">
+            <h2>&#9472;&#9472;&#9472;&nbsp; Book &nbsp;&#9472;&#9472;&#9472;</h2>
+        </div>
+    </Header>
+
+    <div class="popup" id="popup-book-trending-1">
+        <div class="overlay">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopupTrending1()">&times;</div>
+                <div class="popup-container">
+                    <div class="content-section">
+                        <div class="content-poster pop-background-book">
+                            <div class="background-overlay"></div>
+                            <img src="https://images3.penguinrandomhouse.com/cover/9781984898951" alt="">
+                        </div>
+                        <div class="content-text">
+                            <h3>Crying in H Mart</h3>
+                            <h4>20 April 2021 &nbsp;&bull;&nbsp; Michelle Zauner &nbsp;&bull;&nbsp; 239 pages</h4>
+                            <h5>Genres : <span>Biography &nbsp;&bull;&nbsp; Autobiography</span></h5> 
+                            <p style="font-size: 12px; margin-top: 4px;"><span style="color: orange;">&#9733;</span>&nbsp; 8.6 / 10</p>
+                            <p>Crying in H Mart by Michelle Zauner is a poignant memoir that delves into the author's experiences with grief,
+                                identity, and family. Zauner, best known as the frontwoman of the band Japanese Breakfast, recounts her complex
+                                relationship with her Korean heritage, her bond with her mother, and the profound loss she feels after her mother's
+                                passing. Through vivid descriptions of food and heartfelt reflections, Zauner paints a deeply personal and evocative
+                                portrait of love, loss, and the healing power of culinary traditions.</p>
+                        </div>
+                    </div>
+                    <div class="review-section">
+                        <div class="review-scroll">
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Alice K. &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Crying in H Mart" is a deeply moving memoir that beautifully intertwines Michelle Zauner's personal grief with her Korean heritage. Her vivid descriptions of food and family brought me to tears multiple times. It's a poignant exploration of loss and identity.</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">David M. &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Zauner's writing is heartfelt and raw, making "Crying in H Mart" a powerful read. The way she captures her mother's illness and their connection through food is both heart-wrenching and comforting. A must-read for anyone who has experienced loss."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;"> Maria S. &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 10 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"An extraordinary memoir! Michelle Zauner's "Crying in H Mart" is an emotional rollercoaster that dives deep into the complexities of family, culture, and grief. Her storytelling is so immersive, it feels like you're right there with her in every moment. Absolutely brilliant."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">John T. &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 7 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Crying in H Mart" is a touching memoir that highlights the author's journey through grief and her connection to her Korean roots. While some parts felt repetitive, Zauner's honest portrayal of her relationship with her mother and the healing power of food makes it worth reading."</p>
+                            </div>
+                        </div>
+                        <div class="review-form">
+                            <div class="rating-container">
+                                <p>Rating : &nbsp;</p>
+                                <div class="rating">
+                                    <input value="10" name="rating" id="star10" type="radio">
+                                    <label for="star10"></label>
+                                    <input value="9" name="rating" id="star9" type="radio">
+                                    <label for="star9"></label>
+                                    <input value="8" name="rating" id="star8" type="radio">
+                                    <label for="star8"></label>
+                                    <input value="7" name="rating" id="star7" type="radio">
+                                    <label for="star7"></label>
+                                    <input value="6" name="rating" id="star6" type="radio">
+                                    <label for="star6"></label>
+                                    <input value="5" name="rating" id="star5" type="radio">
+                                    <label for="star5"></label>
+                                    <input value="4" name="rating" id="star4" type="radio">
+                                    <label for="star4"></label>
+                                    <input value="3" name="rating" id="star3" type="radio">
+                                    <label for="star3"></label>
+                                    <input value="2" name="rating" id="star2" type="radio">
+                                    <label for="star2"></label>
+                                    <input value="1" name="rating" id="star1" type="radio">
+                                    <label for="star1"></label>
+                                  </div>
+                            </div>
+                            <textarea name="" id=""></textarea>
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-book-trending-2">
+        <div class="overlay">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopupTrending2()">&times;</div>
+                <div class="popup-container">
+                    <div class="content-section">
+                        <div class="content-poster pop-background-book">
+                            <div class="background-overlay"></div>
+                            <img src="https://images1.penguinrandomhouse.com/cover/9780593328798" alt="">
+                        </div>
+                        <div class="content-text">
+                            <h3>Age of Vice</h3>
+                            <h4>3 January 2023 &nbsp;&bull;&nbsp; Deepti Kapoor &nbsp;&bull;&nbsp; 544 pages</h4>
+                            <h5>Genres : <span>Mystery &nbsp;&bull;&nbsp; Fiction &nbsp;&bull;&nbsp; Crime &nbsp;&bull;&nbsp; Thriller</span></h5> 
+                            <p style="font-size: 12px; margin-top: 4px;"><span style="color: orange;">&#9733;</span>&nbsp; 7.2 / 10</p>
+                            <p>"Age of Vice" by Deepti Kapoor is a gripping and immersive novel that delves into the dark and glamorous world of India's elite.
+                                Set against a backdrop of opulence and corruption, the story intertwines the lives of three complex characters—a servant, a playboy,
+                                and a journalist—each ensnared in a web of power, violence, and deceit. As their fates collide, the novel explores themes of ambition,
+                                love, and betrayal, painting a vivid portrait of contemporary India where wealth and influence dictate the rules of the game.</p>
+                        </div>
+                    </div>
+                    <div class="review-section">
+                        <div class="review-scroll">
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Sarah M. &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Age of Vice" is a gripping, atmospheric tale that pulls you into the dark underbelly of Delhi. Kapoor's writing is evocative and the characters are richly drawn. A must-read for anyone who loves immersive, character-driven stories.</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">David K. &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Deepti Kapoor's "Age of Vice" is a compelling read with a fast-paced plot and intricate storytelling. The novel's vivid portrayal of power and corruption in India is both fascinating and thought-provoking. Highly recommended!"</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;"> Priya R. &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 10 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"This book is a masterpiece! "Age of Vice" is a thrilling ride through the complexities of modern India. Kapoor's narrative is both poignant and exhilarating, making it impossible to put down. Brilliantly done!"</p>
+                            </div>
+                        </div>
+                        <div class="review-form">
+                            <div class="rating-container">
+                                <p>Rating : &nbsp;</p>
+                                <div class="rating">
+                                    <input value="10" name="rating" id="star10" type="radio">
+                                    <label for="star10"></label>
+                                    <input value="9" name="rating" id="star9" type="radio">
+                                    <label for="star9"></label>
+                                    <input value="8" name="rating" id="star8" type="radio">
+                                    <label for="star8"></label>
+                                    <input value="7" name="rating" id="star7" type="radio">
+                                    <label for="star7"></label>
+                                    <input value="6" name="rating" id="star6" type="radio">
+                                    <label for="star6"></label>
+                                    <input value="5" name="rating" id="star5" type="radio">
+                                    <label for="star5"></label>
+                                    <input value="4" name="rating" id="star4" type="radio">
+                                    <label for="star4"></label>
+                                    <input value="3" name="rating" id="star3" type="radio">
+                                    <label for="star3"></label>
+                                    <input value="2" name="rating" id="star2" type="radio">
+                                    <label for="star2"></label>
+                                    <input value="1" name="rating" id="star1" type="radio">
+                                    <label for="star1"></label>
+                                  </div>
+                            </div>
+                            <textarea name="" id=""></textarea>
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-book-trending-3">
+        <div class="overlay">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopupTrending3()">&times;</div>
+                <div class="popup-container">
+                    <div class="content-section">
+                        <div class="content-poster pop-background-book">
+                            <div class="background-overlay"></div>
+                            <img src="https://images1.penguinrandomhouse.com/cover/9780593321201 " alt="">
+                        </div>
+                        <div class="content-text">
+                            <h3>Tomorrow, and Tomorrow, and Tomorrow</h3>
+                            <h4>5 July 2022 &nbsp;&bull;&nbsp; Gabrielle Zevin &nbsp;&bull;&nbsp; 401 pages</h4>
+                            <h5>Genres : <span>Coming-of-age &nbsp;&bull;&nbsp; Fiction</span></h5> 
+                            <p style="font-size: 12px; margin-top: 4px;"><span style="color: orange;">&#9733;</span>&nbsp; 8.4 / 10</p>
+                            <p>"Tomorrow, and Tomorrow, and Tomorrow" by Gabrielle Zevin is a compelling novel that explores the intricate lives of two friends,
+                                Sam and Sadie, who share a deep bond over video game creation. Spanning over thirty years, the story delves into their creative partnership,
+                                personal struggles, and the complexities of friendship, love, and ambition. Through their journey, the novel beautifully captures the essence
+                                of collaboration, the impact of technology on relationships, and the enduring quest for meaning in a rapidly changing world.</p>
+                        </div>
+                    </div>
+                    <div class="review-section">
+                        <div class="review-scroll">
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Alex Martinez &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"A beautifully crafted story about friendship and creativity. Zevin captures the complexities of human relationships with such depth and tenderness. A must-read for anyone who loves rich, character-driven narratives."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Jenna Park &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"An engaging and emotional journey through the ups and downs of life and collaboration. The characters are well-developed and relatable. Some parts felt a bit slow, but overall, a compelling read."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Michael Thompson &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 10 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Absolutely stunning! Zevin's writing is both poetic and powerful. The story is a heartfelt exploration of love, loss, and the passage of time. It's one of those rare books that stays with you long after you turn the last page."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Sophia Li &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 7 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"A solid read with a unique premise. I appreciated the insight into the gaming industry and the nuanced portrayal of the characters. However, I felt the plot dragged in the middle. Still, it's worth picking up for its originality and emotional depth."</p>
+                            </div>
+                        </div>
+                        <div class="review-form">
+                            <div class="rating-container">
+                                <p>Rating : &nbsp;</p>
+                                <div class="rating">
+                                    <input value="10" name="rating" id="star10" type="radio">
+                                    <label for="star10"></label>
+                                    <input value="9" name="rating" id="star9" type="radio">
+                                    <label for="star9"></label>
+                                    <input value="8" name="rating" id="star8" type="radio">
+                                    <label for="star8"></label>
+                                    <input value="7" name="rating" id="star7" type="radio">
+                                    <label for="star7"></label>
+                                    <input value="6" name="rating" id="star6" type="radio">
+                                    <label for="star6"></label>
+                                    <input value="5" name="rating" id="star5" type="radio">
+                                    <label for="star5"></label>
+                                    <input value="4" name="rating" id="star4" type="radio">
+                                    <label for="star4"></label>
+                                    <input value="3" name="rating" id="star3" type="radio">
+                                    <label for="star3"></label>
+                                    <input value="2" name="rating" id="star2" type="radio">
+                                    <label for="star2"></label>
+                                    <input value="1" name="rating" id="star1" type="radio">
+                                    <label for="star1"></label>
+                                  </div>
+                            </div>
+                            <textarea name="" id=""></textarea>
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-book-trending-4">
+        <div class="overlay">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopupTrending4()">&times;</div>
+                <div class="popup-container">
+                    <div class="content-section">
+                        <div class="content-poster pop-background-book">
+                            <div class="background-overlay"></div>
+                            <img src="https://images1.penguinrandomhouse.com/cover/9780593593806" alt="">
+                        </div>
+                        <div class="content-text">
+                            <h3>Spare</h3>
+                            <h4>10 January 2023 &nbsp;&bull;&nbsp; Prince Harry, J.R. Moehringer &nbsp;&bull;&nbsp; 410 pages</h4>
+                            <h5>Genres : <span>Nonfiction &nbsp;&bull;&nbsp; Biography &nbsp;&bull;&nbsp; Autobiography</span></h5> 
+                            <p style="font-size: 12px; margin-top: 4px;"><span style="color: orange;">&#9733;</span>&nbsp; 7.8 / 10</p>
+                            <p>"Spare" by Prince Harry is a candid and intimate memoir that delves into the life of the Duke of Sussex.
+                                The book offers an unfiltered look at his experiences growing up in the British royal family, the impact
+                                of his mother Princess Diana's tragic death, and his struggles with the pressures of royal duty. Harry shares
+                                his journey toward finding his own identity, detailing his military service, his marriage to Meghan Markle,
+                                and their decision to step back from royal responsibilities. "Spare" provides a raw and honest perspective on
+                                his life, offering readers a rare glimpse behind the palace walls.</p>
+                        </div>
+                    </div>
+                    <div class="review-section">
+                        <div class="review-scroll">
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Jennifer R. &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Spare by Prince Harry offers a raw and unfiltered glimpse into the life of a modern royal. It's deeply personal and refreshingly honest, shedding light on the struggles and triumphs of someone constantly in the public eye."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Michael S. &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"A compelling narrative that humanizes Prince Harry in a way we've never seen before. The book is engaging and poignant, although at times it feels a bit too self-indulgent. Overall, a fascinating read."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Emily K. &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 7 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Spare is an eye-opening memoir that pulls back the curtain on the British royal family. Prince Harry's storytelling is heartfelt and sincere, though some parts drag on. Worth reading for royal enthusiasts."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">David L. &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"An intimate and candid autobiography, Spare reveals Prince Harry's journey of self-discovery and resilience. The emotional depth and transparency are commendable, making it a standout memoir."</p>
+                            </div>
+                        </div>
+                        <div class="review-form">
+                            <div class="rating-container">
+                                <p>Rating : &nbsp;</p>
+                                <div class="rating">
+                                    <input value="10" name="rating" id="star10" type="radio">
+                                    <label for="star10"></label>
+                                    <input value="9" name="rating" id="star9" type="radio">
+                                    <label for="star9"></label>
+                                    <input value="8" name="rating" id="star8" type="radio">
+                                    <label for="star8"></label>
+                                    <input value="7" name="rating" id="star7" type="radio">
+                                    <label for="star7"></label>
+                                    <input value="6" name="rating" id="star6" type="radio">
+                                    <label for="star6"></label>
+                                    <input value="5" name="rating" id="star5" type="radio">
+                                    <label for="star5"></label>
+                                    <input value="4" name="rating" id="star4" type="radio">
+                                    <label for="star4"></label>
+                                    <input value="3" name="rating" id="star3" type="radio">
+                                    <label for="star3"></label>
+                                    <input value="2" name="rating" id="star2" type="radio">
+                                    <label for="star2"></label>
+                                    <input value="1" name="rating" id="star1" type="radio">
+                                    <label for="star1"></label>
+                                  </div>
+                            </div>
+                            <textarea name="" id=""></textarea>
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-book-trending-5">
+        <div class="overlay">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopupTrending5()">&times;</div>
+                <div class="popup-container">
+                    <div class="content-section">
+                        <div class="content-poster pop-background-book">
+                            <div class="background-overlay"></div>
+                            <img src="https://images2.penguinrandomhouse.com/cover/9780593496220" alt="">
+                        </div>
+                        <div class="content-text">
+                            <h3>Violeta</h3>
+                            <h4>25 January 2022 &nbsp;&bull;&nbsp; Isabel Allende &nbsp;&bull;&nbsp; 322 pages</h4>
+                            <h5>Genres : <span>Historical Fiction &nbsp;&bull;&nbsp; Romance &nbsp;&bull;&nbsp; Biography</span></h5> 
+                            <p style="font-size: 12px; margin-top: 4px;"><span style="color: orange;">&#9733;</span>&nbsp; 8 / 10</p>
+                            <p>"Violeta" by Isabel Allende is a sweeping historical novel that chronicles the life of Violeta Del Valle,
+                                a woman born in 1920 during the Spanish flu pandemic. Spanning a century, Violeta's story is told through
+                                a letter to a loved one, recounting her experiences with love, loss, political upheaval, and social change
+                                across South America. With Allende's signature lyrical prose and rich character development, "Violeta" is a
+                                poignant and intimate portrayal of a woman's resilience and the tumultuous events that shape her world.</p>
+                        </div>
+                    </div>
+                    <div class="review-section">
+                        <div class="review-scroll">
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Emily Roberts &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Isabel Allende's "Violeta" is a sweeping, epic tale that captures the resilience and fortitude of its protagonist. The historical backdrop is richly detailed, bringing to life the events of the 20th century through Violeta's eyes. Allende's storytelling is as compelling as ever."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Michael Nguyen &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Violeta" is a captivating read, with Allende's signature style of blending history and fiction seamlessly. The protagonist's journey is both inspiring and heartbreaking. While the pacing was slow at times, the depth of character development made up for it."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Sarah Kim &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 10 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Isabel Allende has outdone herself with "Violeta." The narrative is beautifully crafted, with Violeta's life story unfolding in a way that is both poignant and powerful. The emotional depth and historical context make this book a must-read."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">John Smith &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 7 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">""Violeta" offers a rich tapestry of history and personal struggle, but at times it felt a bit too dense. Allende's writing is undeniably strong, and Violeta is a compelling character, yet the slow pacing made it challenging to stay engaged throughout."</p>
+                            </div>
+                        </div>
+                        <div class="review-form">
+                            <div class="rating-container">
+                                <p>Rating : &nbsp;</p>
+                                <div class="rating">
+                                    <input value="10" name="rating" id="star10" type="radio">
+                                    <label for="star10"></label>
+                                    <input value="9" name="rating" id="star9" type="radio">
+                                    <label for="star9"></label>
+                                    <input value="8" name="rating" id="star8" type="radio">
+                                    <label for="star8"></label>
+                                    <input value="7" name="rating" id="star7" type="radio">
+                                    <label for="star7"></label>
+                                    <input value="6" name="rating" id="star6" type="radio">
+                                    <label for="star6"></label>
+                                    <input value="5" name="rating" id="star5" type="radio">
+                                    <label for="star5"></label>
+                                    <input value="4" name="rating" id="star4" type="radio">
+                                    <label for="star4"></label>
+                                    <input value="3" name="rating" id="star3" type="radio">
+                                    <label for="star3"></label>
+                                    <input value="2" name="rating" id="star2" type="radio">
+                                    <label for="star2"></label>
+                                    <input value="1" name="rating" id="star1" type="radio">
+                                    <label for="star1"></label>
+                                  </div>
+                            </div>
+                            <textarea name="" id=""></textarea>
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-book-trending-6">
+        <div class="overlay">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopupTrending6()">&times;</div>
+                <div class="popup-container">
+                    <div class="content-section">
+                        <div class="content-poster pop-background-book">
+                            <div class="background-overlay"></div>
+                            <img src="https://images1.penguinrandomhouse.com/cover/9780593111994 " alt="">
+                        </div>
+                        <div class="content-text">
+                            <h3>The Girl I Am, Was, and Never Will Be</h3>
+                            <h4>10 January 2023 &nbsp;&bull;&nbsp; Shannon Gibney &nbsp;&bull;&nbsp; 256 pages</h4>
+                            <h5>Genres : <span>Nonfiction &nbsp;&bull;&nbsp; Family &nbsp;&bull;&nbsp; Biography</span></h5> 
+                            <p style="font-size: 12px; margin-top: 4px;"><span style="color: orange;">&#9733;</span>&nbsp; 7.8 / 10</p>
+                            <p>"The Girl I Am, Was, and Never Will Be" by Shannon Gibney is a poignant and thought-provoking exploration of
+                                identity, race, and belonging. Through the eyes of its protagonist, Gibney delves deep into the complexities
+                                of navigating multiple cultural landscapes while grappling with the fluidity of self-perception. Set against
+                                a backdrop of societal expectations and personal revelations, the novel invites readers on a journey of self-discovery
+                                and acceptance. With lyrical prose and raw emotional depth, Gibney crafts a compelling narrative that challenges
+                                conventional notions of identity and invites readers to contemplate the intricacies of who we are, who we were, and who we aspire to be.</p>
+                        </div>
+                    </div>
+                    <div class="review-section">
+                        <div class="review-scroll">
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Alice P. &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"A poignant exploration of identity and self-discovery. Gibney's narrative weaves together past, present, and future selves with skillful prose, inviting readers to contemplate the complexities of who we are and who we might become."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">David M. &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 7 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"While Gibney's storytelling is compelling, I found some sections of the book to be overly abstract. Nonetheless, "The Girl I Am, Was, and Never Will Be" offers a thought-provoking journey through the layers of identity."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Emily R. &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"An extraordinary blend of memoir and fiction, Gibney's work resonates deeply. Each chapter unfolds like a new revelation, challenging readers to confront their own perceptions of identity and transformation."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Michael K. &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 10 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Gibney's book is nothing short of a masterpiece. The way she navigates themes of race, gender, and selfhood is both profound and illuminating. A must-read for anyone interested in the complexities of human identity."</p>
+                            </div>
+                        </div>
+                        <div class="review-form">
+                            <div class="rating-container">
+                                <p>Rating : &nbsp;</p>
+                                <div class="rating">
+                                    <input value="10" name="rating" id="star10" type="radio">
+                                    <label for="star10"></label>
+                                    <input value="9" name="rating" id="star9" type="radio">
+                                    <label for="star9"></label>
+                                    <input value="8" name="rating" id="star8" type="radio">
+                                    <label for="star8"></label>
+                                    <input value="7" name="rating" id="star7" type="radio">
+                                    <label for="star7"></label>
+                                    <input value="6" name="rating" id="star6" type="radio">
+                                    <label for="star6"></label>
+                                    <input value="5" name="rating" id="star5" type="radio">
+                                    <label for="star5"></label>
+                                    <input value="4" name="rating" id="star4" type="radio">
+                                    <label for="star4"></label>
+                                    <input value="3" name="rating" id="star3" type="radio">
+                                    <label for="star3"></label>
+                                    <input value="2" name="rating" id="star2" type="radio">
+                                    <label for="star2"></label>
+                                    <input value="1" name="rating" id="star1" type="radio">
+                                    <label for="star1"></label>
+                                  </div>
+                            </div>
+                            <textarea name="" id=""></textarea>
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-book-trending-7">
+        <div class="overlay">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopupTrending7()">&times;</div>
+                <div class="popup-container">
+                    <div class="content-section">
+                        <div class="content-poster pop-background-book">
+                            <div class="background-overlay"></div>
+                            <img src="https://images1.penguinrandomhouse.com/cover/9780804172707" alt="">
+                        </div>
+                        <div class="content-text">
+                            <h3>A Little Life</h3>
+                            <h4>10 March 2015 &nbsp;&bull;&nbsp; Hanya Yanagihara &nbsp;&bull;&nbsp; 720 pages</h4>
+                            <h5>Genres : <span>Fiction &nbsp;&bull;&nbsp; Novels &nbsp;&bull;&nbsp; Adult</span></h5> 
+                            <p style="font-size: 12px; margin-top: 4px;"><span style="color: orange;">&#9733;</span>&nbsp; 8.6 / 10</p>
+                            <p>"A Little Life" by Hanya Yanagihara is a profound exploration of friendship, trauma, and the human capacity for resilience.
+                                Set in New York City, the novel follows four college friends—Willem, Jude, JB, and Malcolm—as they navigate the complexities
+                                of adulthood while grappling with the haunting effects of Jude's mysterious and devastating past. Yanagihara's masterful storytelling
+                                delves deep into the intricacies of relationships, delving into themes of love, sacrifice, and the enduring power of friendship in the
+                                face of unimaginable pain.</p>
+                        </div>
+                    </div>
+                    <div class="review-section">
+                        <div class="review-scroll">
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">John Smith &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"A Little Life is an emotional rollercoaster that left me breathless. Yanagihara's characters are so vividly drawn, their struggles so palpable, that you can't help but be deeply moved by their journey. A masterpiece of contemporary literature."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Emily Johnson &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Yanagihara's prose is stunningly beautiful, and her exploration of trauma and friendship is both heart-wrenching and thought-provoking. While the book is undeniably heavy, its raw honesty makes it an unforgettable read."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">David Rodriguez &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 10 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"A Little Life is not just a book; it's an experience. Yanagihara delves into the darkest corners of the human psyche with unflinching honesty, weaving a tale of love, pain, and resilience that will stay with me forever. Simply breathtaking."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Sophia Chen &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 7 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"While I appreciated Yanagihara's skillful storytelling and complex character development, I found A Little Life to be emotionally exhausting at times. The subject matter is heavy, and the book requires a certain emotional resilience to get through. Nevertheless, it's a powerful work that offers profound insights into the human condition."</p>
+                            </div>
+                        </div>
+                        <div class="review-form">
+                            <div class="rating-container">
+                                <p>Rating : &nbsp;</p>
+                                <div class="rating">
+                                    <input value="10" name="rating" id="star10" type="radio">
+                                    <label for="star10"></label>
+                                    <input value="9" name="rating" id="star9" type="radio">
+                                    <label for="star9"></label>
+                                    <input value="8" name="rating" id="star8" type="radio">
+                                    <label for="star8"></label>
+                                    <input value="7" name="rating" id="star7" type="radio">
+                                    <label for="star7"></label>
+                                    <input value="6" name="rating" id="star6" type="radio">
+                                    <label for="star6"></label>
+                                    <input value="5" name="rating" id="star5" type="radio">
+                                    <label for="star5"></label>
+                                    <input value="4" name="rating" id="star4" type="radio">
+                                    <label for="star4"></label>
+                                    <input value="3" name="rating" id="star3" type="radio">
+                                    <label for="star3"></label>
+                                    <input value="2" name="rating" id="star2" type="radio">
+                                    <label for="star2"></label>
+                                    <input value="1" name="rating" id="star1" type="radio">
+                                    <label for="star1"></label>
+                                  </div>
+                            </div>
+                            <textarea name="" id=""></textarea>
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-book-trending-8">
+        <div class="overlay">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopupTrending8()">&times;</div>
+                <div class="popup-container">
+                    <div class="content-section">
+                        <div class="content-poster pop-background-book">
+                            <div class="background-overlay"></div>
+                            <img src="https://images2.penguinrandomhouse.com/cover/9780593545409 " alt="">
+                        </div>
+                        <div class="content-text">
+                            <h3>Build the Life You Want</h3>
+                            <h4>12 September 2023 &nbsp;&bull;&nbsp; Arthur C. Brooks &nbsp;&bull;&nbsp; 272 pages</h4>
+                            <h5>Genres : <span>Nonfiction &nbsp;&bull;&nbsp; Psychology &nbsp;&bull;&nbsp; Science</span></h5> 
+                            <p style="font-size: 12px; margin-top: 4px;"><span style="color: orange;">&#9733;</span>&nbsp; 7.6 / 10</p>
+                            <p>"Build the Life You Want" by Arthur C. Brooks is a practical and inspirational guide that empowers readers to
+                                design a life filled with purpose, fulfillment, and happiness. Drawing on his extensive research and personal
+                                experiences, Brooks offers actionable advice on navigating life's challenges, cultivating meaningful relationships,
+                                and finding joy in everyday moments. Through compelling anecdotes and insightful reflections, he encourages readers
+                                to pursue their passions, embrace resilience, and create a life that aligns with their values and aspirations.</p>
+                        </div>
+                    </div>
+                    <div class="review-section">
+                        <div class="review-scroll">
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Emily Sabrina &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Arthur C. Brooks's 'Build the Life You Want' is a refreshing guide filled with practical wisdom. It's a transformative journey that nudges you to reflect on your values and goals, offering actionable steps towards a more fulfilling life. Highly recommended!"</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">David Alexander &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"In 'Build the Life You Want,' Arthur C. Brooks delivers a compelling blend of philosophy and self-help. With insightful anecdotes and clear strategies, Brooks empowers readers to reassess their priorities and pursue meaningful paths. A worthy read!"</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Sophia Rodriguez &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 10 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Arthur C. Brooks's 'Build the Life You Want' is a masterpiece in personal development literature. With empathy and expertise, Brooks guides readers through a transformative journey, providing invaluable insights and practical tools to craft a life of purpose and fulfillment. A must-read for anyone seeking positive change!"</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Michael Valent &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 7 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"I found 'Build the Life You Want' by Arthur C. Brooks to be a thought-provoking read. While some sections felt repetitive, Brooks's emphasis on cultivating gratitude and fostering meaningful connections resonated deeply. Overall, a solid resource for those navigating life's complexities."</p>
+                            </div>
+                        </div>
+                        <div class="review-form">
+                            <div class="rating-container">
+                                <p>Rating : &nbsp;</p>
+                                <div class="rating">
+                                    <input value="10" name="rating" id="star10" type="radio">
+                                    <label for="star10"></label>
+                                    <input value="9" name="rating" id="star9" type="radio">
+                                    <label for="star9"></label>
+                                    <input value="8" name="rating" id="star8" type="radio">
+                                    <label for="star8"></label>
+                                    <input value="7" name="rating" id="star7" type="radio">
+                                    <label for="star7"></label>
+                                    <input value="6" name="rating" id="star6" type="radio">
+                                    <label for="star6"></label>
+                                    <input value="5" name="rating" id="star5" type="radio">
+                                    <label for="star5"></label>
+                                    <input value="4" name="rating" id="star4" type="radio">
+                                    <label for="star4"></label>
+                                    <input value="3" name="rating" id="star3" type="radio">
+                                    <label for="star3"></label>
+                                    <input value="2" name="rating" id="star2" type="radio">
+                                    <label for="star2"></label>
+                                    <input value="1" name="rating" id="star1" type="radio">
+                                    <label for="star1"></label>
+                                  </div>
+                            </div>
+                            <textarea name="" id=""></textarea>
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div class="popup" id="popup-book-best-seller-1">
+        <div class="overlay">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopupBestSeller1()">&times;</div>
+                <div class="popup-container">
+                    <div class="content-section">
+                        <div class="content-poster pop-background-book">
+                            <div class="background-overlay"></div>
+                            <img src="https://images3.penguinrandomhouse.com/cover/9788491050759" alt="">
+                        </div>
+                        <div class="content-text">
+                            <h3>Don Quixote</h3>
+                            <h4>1 January 1605 &nbsp;&bull;&nbsp; Miguel de Cervantes &nbsp;&bull;&nbsp; 1023 pages</h4>
+                            <h5>Genres : <span>Classics &nbsp;&bull;&nbsp; Literature &nbsp;&bull;&nbsp; Fiction</span></h5> 
+                            <p style="font-size: 12px; margin-top: 4px;"><span style="color: orange;">&#9733;</span>&nbsp; 8.6 / 10</p>
+                            <p>Don Quixote has become so entranced by reading chivalric romances that he determines to become a knight-errant himself. 
+                                In the company of his faithful squire, Sancho Panza, his exploits blossom in all sorts of wonderful ways. While Quixote's 
+                                fancy often leads him astray—he tilts at windmills, imagining them to be giants—Sancho acquires cunning and a certain sagacity. 
+                                Sane madman and wise fool, they roam the world together, and together they have haunted readers' imaginations for nearly four hundred years.</p>
+                        </div>
+                    </div>
+                    <div class="review-section">
+                        <div class="review-scroll">
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Laura Mitchell &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 10 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">""Don Quixote" is an enduring masterpiece of literature that brilliantly blends humor, adventure, and profound philosophical insights. Miguel de Cervantes crafts a rich and captivating tale of the delusional yet noble knight, Don Quixote, and his loyal squire, Sancho Panza."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Mark Davis &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The story of the idealistic knight Don Quixote and his practical squire Sancho Panza is both humorous and poignant. Cervantes' satire of the chivalric traditions is sharp and insightful, providing a commentary on the nature of reality and illusion."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;"> Emily Carter &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The dynamic between Don Quixote and Sancho Panza is particularly compelling, providing both humor and insight. While the novel's length and archaic language may be daunting for some readers, its innovative structure and timeless themes make it an essential read for lovers of classic literature."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">David Thompson &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Miguel de Cervantes' "Don Quixote" is a literary masterpiece that brilliantly combines adventure, comedy, and profound social commentary. The novel's protagonist, Don Quixote, is a tragicomic figure whose quest to revive chivalry leads to a series of absurd and poignant episodes."</p>
+                            </div>
+                        </div>
+                        <div class="review-form">
+                            <div class="rating-container">
+                                <p>Rating : &nbsp;</p>
+                                <div class="rating">
+                                    <input value="10" name="rating" id="star10" type="radio">
+                                    <label for="star10"></label>
+                                    <input value="9" name="rating" id="star9" type="radio">
+                                    <label for="star9"></label>
+                                    <input value="8" name="rating" id="star8" type="radio">
+                                    <label for="star8"></label>
+                                    <input value="7" name="rating" id="star7" type="radio">
+                                    <label for="star7"></label>
+                                    <input value="6" name="rating" id="star6" type="radio">
+                                    <label for="star6"></label>
+                                    <input value="5" name="rating" id="star5" type="radio">
+                                    <label for="star5"></label>
+                                    <input value="4" name="rating" id="star4" type="radio">
+                                    <label for="star4"></label>
+                                    <input value="3" name="rating" id="star3" type="radio">
+                                    <label for="star3"></label>
+                                    <input value="2" name="rating" id="star2" type="radio">
+                                    <label for="star2"></label>
+                                    <input value="1" name="rating" id="star1" type="radio">
+                                    <label for="star1"></label>
+                                  </div>
+                            </div>
+                            <textarea name="" id=""></textarea>
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-book-best-seller-2">
+        <div class="overlay">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopupBestSeller2()">&times;</div>
+                <div class="popup-container">
+                    <div class="content-section">
+                        <div class="content-poster pop-background-book">
+                            <div class="background-overlay"></div>
+                            <img src="https://images1.penguinrandomhouse.com/cover/9780345529640" alt="">
+                        </div>
+                        <div class="content-text">
+                            <h3>A Tale of Two Cities</h3>
+                            <h4>26 November 1859 &nbsp;&bull;&nbsp; Charles Dickens &nbsp;&bull;&nbsp; 489 pages</h4>
+                            <h5>Genres : <span>Classics &nbsp;&bull;&nbsp; Fiction &nbsp;&bull;&nbsp; Historical Fiction</span></h5> 
+                            <p style="font-size: 12px; margin-top: 4px;"><span style="color: orange;">&#9733;</span>&nbsp; 7.8 / 10</p>
+                            <p>A Tale of Two Cities is Charles Dickens's great historical novel, set against the violent upheaval of the French Revolution. 
+                                The most famous and perhaps the most popular of his works, it compresses an event of immense complexity to the scale of a 
+                                family history, with a cast of characters that includes a bloodthirsty ogress and an antihero as believably flawed as any in modern fiction.</p>
+                        </div>
+                    </div>
+                    <div class="review-section">
+                        <div class="review-scroll">
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Jennifer Brooks &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 10 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"A Tale of Two Cities" is a literary masterpiece that captures the tumultuous era of the French Revolution with vivid detail and profound emotional depth. Charles Dickens' ability to weave intricate characters into a sweeping historical narrative is unparalleled."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Michael Adams &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Charles Dickens' "A Tale of Two Cities" is a powerful and moving historical novel that offers a profound exploration of revolution and redemption. The story, set against the backdrop of the French Revolution, is compelling and emotionally charged. Dickens' characters, including the tragic hero Sydney Carton and the noble Charles Darnay, are well-drawn and complex. "</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;"> Emily Johnson &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The parallel storylines in Paris and London are masterfully handled, creating a sense of tension and anticipation. Though the language can be challenging for modern readers, the novel's emotional depth and historical significance make it a compelling read. "</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;"> David Thompson &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The novel's exploration of themes such as resurrection, sacrifice, and the plight of the oppressed is both moving and thought-provoking. Sydney Carton's poignant journey from despondency to heroism is a highlight of the book."</p>
+                            </div>
+                        </div>
+                        <div class="review-form">
+                            <div class="rating-container">
+                                <p>Rating : &nbsp;</p>
+                                <div class="rating">
+                                    <input value="10" name="rating" id="star10" type="radio">
+                                    <label for="star10"></label>
+                                    <input value="9" name="rating" id="star9" type="radio">
+                                    <label for="star9"></label>
+                                    <input value="8" name="rating" id="star8" type="radio">
+                                    <label for="star8"></label>
+                                    <input value="7" name="rating" id="star7" type="radio">
+                                    <label for="star7"></label>
+                                    <input value="6" name="rating" id="star6" type="radio">
+                                    <label for="star6"></label>
+                                    <input value="5" name="rating" id="star5" type="radio">
+                                    <label for="star5"></label>
+                                    <input value="4" name="rating" id="star4" type="radio">
+                                    <label for="star4"></label>
+                                    <input value="3" name="rating" id="star3" type="radio">
+                                    <label for="star3"></label>
+                                    <input value="2" name="rating" id="star2" type="radio">
+                                    <label for="star2"></label>
+                                    <input value="1" name="rating" id="star1" type="radio">
+                                    <label for="star1"></label>
+                                  </div>
+                            </div>
+                            <textarea name="" id=""></textarea>
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-book-best-seller-3">
+        <div class="overlay">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopupBestSeller3()">&times;</div>
+                <div class="popup-container">
+                    <div class="content-section">
+                        <div class="content-poster pop-background-book">
+                            <div class="background-overlay"></div>
+                            <img src="https://images4.penguinrandomhouse.com/cover/9789877514308 " alt="">
+                        </div>
+                        <div class="content-text">
+                            <h3>The Little Prince</h3>
+                            <h4>6 April 1943 &nbsp;&bull;&nbsp; Antoine de Saint-Exupery &nbsp;&bull;&nbsp; 96 pages</h4>
+                            <h5>Genres : <span>Fantasy &nbsp;&bull;&nbsp; Childrens</span></h5> 
+                            <p style="font-size: 12px; margin-top: 4px;"><span style="color: orange;">&#9733;</span>&nbsp; 8.6 / 10</p>
+                            <p>A pilot stranded in the desert awakes one morning to see, standing before him, the most extraordinary little fellow.
+                                 "Please," asks the stranger, "draw me a sheep." And the pilot realizes that when life's events are too difficult to understand, 
+                                 there is no choice but to succumb to their mysteries. He pulls out pencil and paper... And thus begins this wise and enchanting 
+                                 fable that, in teaching the secret of what is really important in life, has changed forever the world for its readers.</p>
+                        </div>
+                    </div>
+                    <div class="review-section">
+                        <div class="review-scroll">
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Sarah Williams &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 10 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">""The Little Prince" by Antoine de Saint-Exupéry is a timeless and enchanting tale that speaks to both children and adults. The story of a young prince who travels from planet to planet, encountering various inhabitants and learning profound life lessons, is beautifully written and deeply moving."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Jenna Miller &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The author's whimsical illustrations complement the narrative perfectly. While the book's allegorical style may be more appreciated by adults, its gentle wisdom and poetic prose make it accessible and enjoyable for readers of all ages."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Brian Park &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"While it is often categorized as a children's book, its philosophical depth and exploration of themes like love, loneliness, and the essence of true friendship make it equally compelling for adults."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Sophia Kang &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 7 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The story's simplicity and poetic style are appealing, and the illustrations by the author add a whimsical touch. However, some readers might find the allegorical nature of the book somewhat abstract and less engaging compared to more straightforward narratives."</p>
+                            </div>
+                        </div>
+                        <div class="review-form">
+                            <div class="rating-container">
+                                <p>Rating : &nbsp;</p>
+                                <div class="rating">
+                                    <input value="10" name="rating" id="star10" type="radio">
+                                    <label for="star10"></label>
+                                    <input value="9" name="rating" id="star9" type="radio">
+                                    <label for="star9"></label>
+                                    <input value="8" name="rating" id="star8" type="radio">
+                                    <label for="star8"></label>
+                                    <input value="7" name="rating" id="star7" type="radio">
+                                    <label for="star7"></label>
+                                    <input value="6" name="rating" id="star6" type="radio">
+                                    <label for="star6"></label>
+                                    <input value="5" name="rating" id="star5" type="radio">
+                                    <label for="star5"></label>
+                                    <input value="4" name="rating" id="star4" type="radio">
+                                    <label for="star4"></label>
+                                    <input value="3" name="rating" id="star3" type="radio">
+                                    <label for="star3"></label>
+                                    <input value="2" name="rating" id="star2" type="radio">
+                                    <label for="star2"></label>
+                                    <input value="1" name="rating" id="star1" type="radio">
+                                    <label for="star1"></label>
+                                  </div>
+                            </div>
+                            <textarea name="" id=""></textarea>
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-book-best-seller-4">
+        <div class="overlay">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopupBestSeller4()">&times;</div>
+                <div class="popup-container">
+                    <div class="content-section">
+                        <div class="content-poster pop-background-book">
+                            <div class="background-overlay"></div>
+                            <img src="https://upload.wikimedia.org/wikipedia/id/b/bf/Harry_Potter_and_the_Sorcerer%27s_Stone.jpg " alt="">
+                        </div>
+                        <div class="content-text">
+                            <h3>Harry Potter and the Sorcerer's Stone</h3>
+                            <h4>26 June 1997 &nbsp;&bull;&nbsp; J.K. Rowling &nbsp;&bull;&nbsp; 333 pages</h4>
+                            <h5>Genres : <span>Fiction &nbsp;&bull;&nbsp; Fantasy &nbsp;&bull;&nbsp; Magic</span></h5> 
+                            <p style="font-size: 12px; margin-top: 4px;"><span style="color: orange;">&#9733;</span>&nbsp; 9 / 10</p>
+                            <p>Harry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, 
+                                Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by 
+                                his grisly aunt and uncle. Then, on Harry's eleventh birthday, a great beetle-eyed giant of a man called Rubeus 
+                                Hagrid bursts in with some astonishing news: Harry Potter is a wizard, and he has a place at Hogwarts School of 
+                                Witchcraft and Wizardry. An incredible adventure is about to begin!</p>
+                        </div>
+                    </div>
+                    <div class="review-section">
+                        <div class="review-scroll">
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Laura Mitchell &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The book's charm lies in its richly developed characters, engaging plot, and the seamless blending of fantasy with relatable themes of friendship, courage, and self-discovery. "</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Michael Shannon &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The plot is engaging, with a good mix of adventure, mystery, and humor. While the writing is geared towards younger readers, the story's universal themes of friendship, bravery, and self-discovery appeal to all ages."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Dylan Johnson &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 10 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">""Harry Potter and the Sorcerer's Stone" is a masterpiece of children's literature that introduces readers to the magical world of Hogwarts. J.K. Rowling's storytelling is exceptional, weaving a rich tapestry of characters, spells, and adventures that are both enchanting and immersive."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">David Liu &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 7 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The book is filled with magic, mystery, and a sense of wonder that appeals to both children and adults. However, some elements of the story, such as the relatively straightforward plot and the simplicity of the writing, might feel more suited to younger readers."</p>
+                            </div>
+                        </div>
+                        <div class="review-form">
+                            <div class="rating-container">
+                                <p>Rating : &nbsp;</p>
+                                <div class="rating">
+                                    <input value="10" name="rating" id="star10" type="radio">
+                                    <label for="star10"></label>
+                                    <input value="9" name="rating" id="star9" type="radio">
+                                    <label for="star9"></label>
+                                    <input value="8" name="rating" id="star8" type="radio">
+                                    <label for="star8"></label>
+                                    <input value="7" name="rating" id="star7" type="radio">
+                                    <label for="star7"></label>
+                                    <input value="6" name="rating" id="star6" type="radio">
+                                    <label for="star6"></label>
+                                    <input value="5" name="rating" id="star5" type="radio">
+                                    <label for="star5"></label>
+                                    <input value="4" name="rating" id="star4" type="radio">
+                                    <label for="star4"></label>
+                                    <input value="3" name="rating" id="star3" type="radio">
+                                    <label for="star3"></label>
+                                    <input value="2" name="rating" id="star2" type="radio">
+                                    <label for="star2"></label>
+                                    <input value="1" name="rating" id="star1" type="radio">
+                                    <label for="star1"></label>
+                                  </div>
+                            </div>
+                            <textarea name="" id=""></textarea>
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-book-best-seller-5">
+        <div class="overlay">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopupBestSeller5()">&times;</div>
+                <div class="popup-container">
+                    <div class="content-section">
+                        <div class="content-poster pop-background-book">
+                            <div class="background-overlay"></div>
+                            <img src="https://akcdn.detik.net.id/community/media/visual/2024/01/26/novel-grafis-the-hobbit.jpeg?w=700&q=90 " alt="">
+                        </div>
+                        <div class="content-text">
+                            <h3>The Hobbit</h3>
+                            <h4>21 September 1937 &nbsp;&bull;&nbsp; J.R.R. Tolkien &nbsp;&bull;&nbsp; 366 pages</h4>
+                            <h5>Genres : <span>Fiction &nbsp;&bull;&nbsp; Fantasy &nbsp;&bull;&nbsp; Classics</span></h5> 
+                            <p style="font-size: 12px; margin-top: 4px;"><span style="color: orange;">&#9733;</span>&nbsp; 8.6 / 10</p>
+                            <p>Written for J.R.R. Tolkien's own children, The Hobbit met with instant critical acclaim when it was first published in 1937. 
+                                Now recognized as a timeless classic, this introduction to the hobbit Bilbo Baggins, the wizard Gandalf, Gollum, and the spectacular 
+                                world of Middle-earth recounts of the adventures of a reluctant hero, a powerful and dangerous ring, and the cruel dragon Smaug the Magnificent. </p>
+                        </div>
+                    </div>
+                    <div class="review-section">
+                        <div class="review-scroll">
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Elena Wagner &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The book's blend of humor, excitement, and profound themes of bravery and friendship makes it a compelling read for all ages. "The Hobbit" is a masterful prelude to the epic "Lord of the Rings" trilogy."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Michael Nguyen &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Tolkien's writing is rich and evocative, capturing the wonder and danger of the fantasy world he created."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Jenna Kim &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 10 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"J.R.R. Tolkien's imaginative world-building and charming characters make this book a true literary treasure. Bilbo Baggins' transformation from a reluctant adventurer to a cunning and brave hero is wonderfully portrayed."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Juliet Ward &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 7 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The book is filled with exciting episodes, from encounters with trolls and goblins to the discovery of the One Ring. However, the pacing can be uneven, with some sections feeling slower and more detailed than necessary."</p>
+                            </div>
+                        </div>
+                        <div class="review-form">
+                            <div class="rating-container">
+                                <p>Rating : &nbsp;</p>
+                                <div class="rating">
+                                    <input value="10" name="rating" id="star10" type="radio">
+                                    <label for="star10"></label>
+                                    <input value="9" name="rating" id="star9" type="radio">
+                                    <label for="star9"></label>
+                                    <input value="8" name="rating" id="star8" type="radio">
+                                    <label for="star8"></label>
+                                    <input value="7" name="rating" id="star7" type="radio">
+                                    <label for="star7"></label>
+                                    <input value="6" name="rating" id="star6" type="radio">
+                                    <label for="star6"></label>
+                                    <input value="5" name="rating" id="star5" type="radio">
+                                    <label for="star5"></label>
+                                    <input value="4" name="rating" id="star4" type="radio">
+                                    <label for="star4"></label>
+                                    <input value="3" name="rating" id="star3" type="radio">
+                                    <label for="star3"></label>
+                                    <input value="2" name="rating" id="star2" type="radio">
+                                    <label for="star2"></label>
+                                    <input value="1" name="rating" id="star1" type="radio">
+                                    <label for="star1"></label>
+                                  </div>
+                            </div>
+                            <textarea name="" id=""></textarea>
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-book-best-seller-6">
+        <div class="overlay">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopupBestSeller6()">&times;</div>
+                <div class="popup-container">
+                    <div class="content-section">
+                        <div class="content-poster pop-background-book">
+                            <div class="background-overlay"></div>
+                            <img src="https://images4.penguinrandomhouse.com/cover/9780307277671" alt="">
+                        </div>
+                        <div class="content-text">
+                            <h3>The Da Vinci Code</h3>
+                            <h4>18 March 2003 &nbsp;&bull;&nbsp; Dan Brown &nbsp;&bull;&nbsp; 489 pages</h4>
+                            <h5>Genres : <span>Fiction &nbsp;&bull;&nbsp; Mystery &nbsp;&bull;&nbsp; Thriller</span></h5> 
+                            <p style="font-size: 12px; margin-top: 4px;"><span style="color: orange;">&#9733;</span>&nbsp; 7.8 / 10</p>
+                            <p>"While in Paris, Harvard symbologist Robert Langdon is awakened by a phone call in the dead of the night. 
+                                The elderly curator of the Louvre has been murdered inside the museum, his body covered in baffling symbols. 
+                                As Langdon and gifted French cryptologist Sophie Neveu sort through the bizarre riddles, they are stunned to 
+                                discover a trail of clues hidden in the works of Leonardo da Vinci—clues visible for all to see and yet ingeniously disguised by the painter.</p>
+                        </div>
+                    </div>
+                    <div class="review-section">
+                        <div class="review-scroll">
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Lili Terry &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 6 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The plot, centered around Robert Langdon's investigation into a murder at the Louvre, is filled with intriguing puzzles and conspiracies. However, the writing can sometimes feel formulaic, and the characters lack depth, making it hard to fully connect with their journeys."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Kaitlyn Hall &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The blend of real historical elements with fiction is skillfully done, making the story both educational and entertaining. While the book has sparked controversy over its portrayal of historical and religious themes, it remains a compelling and well-paced thriller that is hard to put down."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Angelo Mitchell &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 7 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The book's strength lies in its intricate plot and the intriguing historical and religious references. However, some readers might find the character development lacking and the dialogue somewhat stilted."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Cordelia Finch &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Brown's writing is engaging, and his ability to weave historical facts with fiction creates an intriguing and immersive experience."</p>
+                            </div>
+                        </div>
+                        <div class="review-form">
+                            <div class="rating-container">
+                                <p>Rating : &nbsp;</p>
+                                <div class="rating">
+                                    <input value="10" name="rating" id="star10" type="radio">
+                                    <label for="star10"></label>
+                                    <input value="9" name="rating" id="star9" type="radio">
+                                    <label for="star9"></label>
+                                    <input value="8" name="rating" id="star8" type="radio">
+                                    <label for="star8"></label>
+                                    <input value="7" name="rating" id="star7" type="radio">
+                                    <label for="star7"></label>
+                                    <input value="6" name="rating" id="star6" type="radio">
+                                    <label for="star6"></label>
+                                    <input value="5" name="rating" id="star5" type="radio">
+                                    <label for="star5"></label>
+                                    <input value="4" name="rating" id="star4" type="radio">
+                                    <label for="star4"></label>
+                                    <input value="3" name="rating" id="star3" type="radio">
+                                    <label for="star3"></label>
+                                    <input value="2" name="rating" id="star2" type="radio">
+                                    <label for="star2"></label>
+                                    <input value="1" name="rating" id="star1" type="radio">
+                                    <label for="star1"></label>
+                                  </div>
+                            </div>
+                            <textarea name="" id=""></textarea>
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-book-best-seller-7">
+        <div class="overlay">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopupBestSeller7()">&times;</div>
+                <div class="popup-container">
+                    <div class="content-section">
+                        <div class="content-poster pop-background-book">
+                            <div class="background-overlay"></div>
+                            <img src="https://images4.penguinrandomhouse.com/cover/9781585424337" alt="">
+                        </div>
+                        <div class="content-text">
+                            <h3>Think and Grow Rich</h3>
+                            <h4>1 January 1937 &nbsp;&bull;&nbsp; Napoleon Hill &nbsp;&bull;&nbsp; 233 pages</h4>
+                            <h5>Genres : <span>Business &nbsp;&bull;&nbsp; Self Help &nbsp;&bull;&nbsp; Finance</span></h5> 
+                            <p style="font-size: 12px; margin-top: 4px;"><span style="color: orange;">&#9733;</span>&nbsp; 8.4 / 10</p>
+                            <p>Think and Grow Rich is a guide to success by Napoleon Hill, which was first published in 1937 following the Great 
+                                Depression. It was immediately welcomed as an antidote to hard times and remained a bestseller for decades. Many 
+                                people still find its philosophy of positive thinking and its specific steps for achieving wealth both relevant 
+                                and life-changing. Hill contends that our thoughts become our reality, and offers a plan and principles for transforming 
+                                thoughts into riches, including visualization, affirmation, creating a Master Mind group, defining a goal, and planning.</p>
+                        </div>
+                    </div>
+                    <div class="review-section">
+                        <div class="review-scroll">
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Rafael Becker &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The principles of desire, faith, and persistence are presented with clear, actionable steps. While some ideas may feel outdated or overly simplistic in today's context."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Dillan Austin&nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 6 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Hill's concept of the "mastermind group" and his emphasis on setting clear, focused goals are particularly valuable. However, some readers might find the writing style somewhat dated and the anecdotes less applicable to modern times."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Richard Dyer &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 10 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The book's structured approach, with its clear principles and steps, makes it a practical guide for anyone looking to improve their life. Hill's use of real-life examples adds credibility and relatability to his advice."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Eleni Clay &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 7 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Hill's emphasis on the importance of mindset and the "law of attraction" provides a strong foundation for readers seeking to transform their lives. However, some aspects of the book, such as its language and examples, may feel dated to modern readers."</p>
+                            </div>
+                        </div>
+                        <div class="review-form">
+                            <div class="rating-container">
+                                <p>Rating : &nbsp;</p>
+                                <div class="rating">
+                                    <input value="10" name="rating" id="star10" type="radio">
+                                    <label for="star10"></label>
+                                    <input value="9" name="rating" id="star9" type="radio">
+                                    <label for="star9"></label>
+                                    <input value="8" name="rating" id="star8" type="radio">
+                                    <label for="star8"></label>
+                                    <input value="7" name="rating" id="star7" type="radio">
+                                    <label for="star7"></label>
+                                    <input value="6" name="rating" id="star6" type="radio">
+                                    <label for="star6"></label>
+                                    <input value="5" name="rating" id="star5" type="radio">
+                                    <label for="star5"></label>
+                                    <input value="4" name="rating" id="star4" type="radio">
+                                    <label for="star4"></label>
+                                    <input value="3" name="rating" id="star3" type="radio">
+                                    <label for="star3"></label>
+                                    <input value="2" name="rating" id="star2" type="radio">
+                                    <label for="star2"></label>
+                                    <input value="1" name="rating" id="star1" type="radio">
+                                    <label for="star1"></label>
+                                  </div>
+                            </div>
+                            <textarea name="" id=""></textarea>
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-book-best-seller-8">
+        <div class="overlay">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopupBestSeller8()">&times;</div>
+                <div class="popup-container">
+                    <div class="content-section">
+                        <div class="content-poster pop-background-book">
+                            <div class="background-overlay"></div>
+                            <img src="https://ebooks.gramedia.com/ebook-covers/29408/big_covers/ID_HCO2015MTH12TALC.jpeg " alt="">
+                        </div>
+                        <div class="content-text">
+                            <h3>The Alchemist</h3>
+                            <h4>1 January 1988 &nbsp;&bull;&nbsp; Paulo Coelho &nbsp;&bull;&nbsp; 182 pages</h4>
+                            <h5>Genres : <span>Fantasy &nbsp;&bull;&nbsp; Classics &nbsp;&bull;&nbsp; Fiction</span></h5> 
+                            <p style="font-size: 12px; margin-top: 4px;"><span style="color: orange;">&#9733;</span>&nbsp; 7.8 / 10</p>
+                            <p>Paulo Coelho's masterpiece tells the mystical story of Santiago, an Andalusian shepherd boy who yearns to travel 
+                                in search of a worldly treasure. His quest will lead him to riches far different—and far more satisfying—than he 
+                                ever imagined. Santiago's journey teaches us about the essential wisdom of listening to our hearts, recognizing 
+                                opportunity and learning to read the omens strewn along life's path, and, most importantly, following our dreams.</p>
+                        </div>
+                    </div>
+                    <div class="review-section">
+                        <div class="review-scroll">
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Diego Watson &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Coelho's lyrical prose and profound insights make this a captivating read that resonates on a spiritual level. The allegorical nature of the story allows readers to find personal meaning and motivation in Santiago's quest."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Kaiden Alexander &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 7 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The novel's simple yet profound narrative follows Santiago on a journey of self-discovery, filled with symbolic encounters and life lessons. Coelho's writing is clear and evocative, making the book accessible to a wide audience. However, some readers might find the philosophical messages somewhat repetitive or overly simplistic."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Maddison Deleon &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 10 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The narrative is rich with allegory and wisdom, encouraging readers to listen to their hearts and pursue their dreams with courage and faith. Coelho's poetic and accessible writing style makes complex ideas feel intimate and personal."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Michael Howard &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 7 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Coelho's writing is elegant and filled with insightful aphorisms that encourage readers to reflect on their own paths. However, some may find the book's philosophical undertones and spiritual messages to be somewhat repetitive."</p>
+                            </div>
+                        </div>
+                        <div class="review-form">
+                            <div class="rating-container">
+                                <p>Rating : &nbsp;</p>
+                                <div class="rating">
+                                    <input value="10" name="rating" id="star10" type="radio">
+                                    <label for="star10"></label>
+                                    <input value="9" name="rating" id="star9" type="radio">
+                                    <label for="star9"></label>
+                                    <input value="8" name="rating" id="star8" type="radio">
+                                    <label for="star8"></label>
+                                    <input value="7" name="rating" id="star7" type="radio">
+                                    <label for="star7"></label>
+                                    <input value="6" name="rating" id="star6" type="radio">
+                                    <label for="star6"></label>
+                                    <input value="5" name="rating" id="star5" type="radio">
+                                    <label for="star5"></label>
+                                    <input value="4" name="rating" id="star4" type="radio">
+                                    <label for="star4"></label>
+                                    <input value="3" name="rating" id="star3" type="radio">
+                                    <label for="star3"></label>
+                                    <input value="2" name="rating" id="star2" type="radio">
+                                    <label for="star2"></label>
+                                    <input value="1" name="rating" id="star1" type="radio">
+                                    <label for="star1"></label>
+                                  </div>
+                            </div>
+                            <textarea name="" id=""></textarea>
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div class="popup" id="popup-book-most-reviewed-1">
+        <div class="overlay">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopupMostReviewed1()">&times;</div>
+                <div class="popup-container">
+                    <div class="content-section">
+                        <div class="content-poster pop-background-book">
+                            <div class="background-overlay"></div>
+                            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1681839850i/21853621.jpg" alt="">
+                        </div>
+                        <div class="content-text">
+                            <h3>The Nightingale</h3>
+                            <h4>3 February 2015 &nbsp;&bull;&nbsp; Kristin Hannah &nbsp;&bull;&nbsp; 440 pages</h4>
+                            <h5>Genres : <span>Historical &nbsp;&bull;&nbsp; Fiction &nbsp;&bull;&nbsp; World War II</span></h5> 
+                            <p style="font-size: 12px; margin-top: 4px;"><span style="color: orange;">&#9733;</span>&nbsp; 9.2 / 10</p>
+                            <p>In the quiet village of Carriveau, Vianne Mauriac says good-bye to her husband, Antoine, as he heads for the Front. 
+                                She doesn't believe that the Nazis will invade France…but invade they do, in droves of marching soldiers, in caravans 
+                                of trucks and tanks, in planes that fill the skies and drop bombs upon the innocent. When a German captain requisitions 
+                                Vianne's home, she and her daughter must live with the enemy or lose everything. Without food or money or hope, as danger 
+                                escalates all around them, she is forced to make one impossible choice after another to keep her family alive.</p>
+                        </div>
+                    </div>
+                    <div class="review-section">
+                        <div class="review-scroll">
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;"> Lily Pritchett&nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 7 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The novel's themes of courage, sacrifice, and the complexities of human relationships are thoughtfully explored. However, some readers might find the narrative occasionally melodramatic and the pacing uneven."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Troy Benson &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Hannah's meticulous attention to historical detail enhances the authenticity of the narrative. The characters are well-developed, and their emotional struggles resonate deeply with readers."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;"> Alice Wilson &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 10 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Hannah's evocative writing and rich character development draw readers into the harrowing realities of war. The narrative is well-paced, balancing moments of intense drama with quieter, introspective scenes."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;"> Blaine Holloway &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The book's emotional depth and vivid descriptions bring the characters and their struggles to life, making it an unforgettable read. Hannah's portrayal of the courage, sacrifice, and resilience of women in wartime is both poignant and inspiring."</p>
+                            </div>
+                        </div>
+                        <div class="review-form">
+                            <div class="rating-container">
+                                <p>Rating : &nbsp;</p>
+                                <div class="rating">
+                                    <input value="10" name="rating" id="star10" type="radio">
+                                    <label for="star10"></label>
+                                    <input value="9" name="rating" id="star9" type="radio">
+                                    <label for="star9"></label>
+                                    <input value="8" name="rating" id="star8" type="radio">
+                                    <label for="star8"></label>
+                                    <input value="7" name="rating" id="star7" type="radio">
+                                    <label for="star7"></label>
+                                    <input value="6" name="rating" id="star6" type="radio">
+                                    <label for="star6"></label>
+                                    <input value="5" name="rating" id="star5" type="radio">
+                                    <label for="star5"></label>
+                                    <input value="4" name="rating" id="star4" type="radio">
+                                    <label for="star4"></label>
+                                    <input value="3" name="rating" id="star3" type="radio">
+                                    <label for="star3"></label>
+                                    <input value="2" name="rating" id="star2" type="radio">
+                                    <label for="star2"></label>
+                                    <input value="1" name="rating" id="star1" type="radio">
+                                    <label for="star1"></label>
+                                  </div>
+                            </div>
+                            <textarea name="" id=""></textarea>
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-book-most-reviewed-2">
+        <div class="overlay">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopupMostReviewed2()">&times;</div>
+                <div class="popup-container">
+                    <div class="content-section">
+                        <div class="content-poster pop-background-book">
+                            <div class="background-overlay"></div>
+                            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348990566i/5470.jpg " alt="">
+                        </div>
+                        <div class="content-text">
+                            <h3>1984</h3>
+                            <h4>8 June 1949 &nbsp;&bull;&nbsp; George Orwell &nbsp;&bull;&nbsp; 368 pages</h4>
+                            <h5>Genres : <span>Dystopia &nbsp;&bull;&nbsp; Fiction &nbsp;&bull;&nbsp; Classics &nbsp;&bull;&nbsp; Politics</span></h5> 
+                            <p style="font-size: 12px; margin-top: 4px;"><span style="color: orange;">&#9733;</span>&nbsp; 8.4 / 10</p>
+                            <p>"A masterpiece of rebellion and imprisonment where war is peace freedom is slavery and Big Brother is watching Thought Police 
+                                Big Brother Orwellian These words have entered our vocabulary because of George Orwell s classic dystopian novel 1984 The story 
+                                of one man s nightmare odyssey as he pursues a forbidden love affair through a world ruled by warring states and a power structure 
+                                that controls not only information but also individual thought and memory 1984 is a prophetic haunting tale More relevant than ever 
+                                before 1984 exposes the worst crimes imaginable the destruction of truth freedom and individuality.</p>
+                        </div>
+                    </div>
+                    <div class="review-section">
+                        <div class="review-scroll">
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Amelia Rose &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Orwell's masterful world-building creates a suffocating atmosphere, and the constant fear Winston experiences is palpable. While the ending is bleak, the book's exploration of freedom and control is both thought-provoking and unsettling."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Ethan Williams &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"This book is a masterpiece! Orwell crafts a terrifyingly believable world where individuality is crushed and history is rewritten. The characters, especially Winston, 
+                                    are well-developed and relatable, making their struggles all the more impactful. The themes of love, rebellion, and the dangers of totalitarianism resonate even today.  A slight drawback is the 
+                                    slow pacing in the middle section, but the overall impact is undeniable."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;"> Clara Johnson &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 7 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The concept of Newspeak and the manipulation of language is particularly fascinating. However, some might find the constant negativity and lack of hope draining. If you're looking for a thought-provoking read that will stay with you long after you finish, this is a good choice, but be prepared for a dark journey."</p>
+                            </div>
+                        </div>
+                        <div class="review-form">
+                            <div class="rating-container">
+                                <p>Rating : &nbsp;</p>
+                                <div class="rating">
+                                    <input value="10" name="rating" id="star10" type="radio">
+                                    <label for="star10"></label>
+                                    <input value="9" name="rating" id="star9" type="radio">
+                                    <label for="star9"></label>
+                                    <input value="8" name="rating" id="star8" type="radio">
+                                    <label for="star8"></label>
+                                    <input value="7" name="rating" id="star7" type="radio">
+                                    <label for="star7"></label>
+                                    <input value="6" name="rating" id="star6" type="radio">
+                                    <label for="star6"></label>
+                                    <input value="5" name="rating" id="star5" type="radio">
+                                    <label for="star5"></label>
+                                    <input value="4" name="rating" id="star4" type="radio">
+                                    <label for="star4"></label>
+                                    <input value="3" name="rating" id="star3" type="radio">
+                                    <label for="star3"></label>
+                                    <input value="2" name="rating" id="star2" type="radio">
+                                    <label for="star2"></label>
+                                    <input value="1" name="rating" id="star1" type="radio">
+                                    <label for="star1"></label>
+                                  </div>
+                            </div>
+                            <textarea name="" id=""></textarea>
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-book-most-reviewed-3">
+        <div class="overlay">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopupMostReviewed3()">&times;</div>
+                <div class="popup-container">
+                    <div class="content-section">
+                        <div class="content-poster pop-background-book">
+                            <div class="background-overlay"></div>
+                            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1660273739i/11870085.jpg" alt="">
+                        </div>
+                        <div class="content-text">
+                            <h3>The Fault in Our Stars</h3>
+                            <h4>10 January 2012 &nbsp;&bull;&nbsp; John Green &nbsp;&bull;&nbsp; 313 pages</h4>
+                            <h5>Genres : <span>Young Adult &nbsp;&bull;&nbsp; Fiction</span></h5> 
+                            <p style="font-size: 12px; margin-top: 4px;"><span style="color: orange;">&#9733;</span>&nbsp; 8.2 / 10</p>
+                            <p>Despite the tumor-shrinking medical miracle that has bought her a few years, Hazel has never been anything but terminal,
+                                 her final chapter inscribed upon diagnosis. But when a gorgeous plot twist named Augustus Waters suddenly appears at Cancer 
+                                 Kid Support Group, Hazel's story is about to be completely rewritten.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="review-section">
+                        <div class="review-scroll">
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Sarah Jones &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The Fault in Our Stars is a heartbreaking yet heartwarming story about two teenagers battling cancer. Hazel and Augustus' love story is both funny and poignant, reminding us to cherish life's precious moments. John Green's writing is witty and insightful, and he doesn't shy away from the realities of illness."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Michael Brown &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"This book is an emotional rollercoaster. You'll laugh, cry, and everything in between as you follow Hazel and Augustus on their journey. Their love story is both inspiring and heartbreaking, and it will stay with you long after you finish reading."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Emily Garcia &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 7 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"John Green tackles complex themes with honesty and sensitivity. Be warned though, the book deals with heavy topics and doesn't shy away from the harsh realities of illness. If you're looking for a light read, this isn't it, but if you're ready for an emotional journey, it's worth picking up."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Daniel Lee &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The book is funny, heartwarming, and thought-provoking. John Green's writing is engaging, and he masterfully blends humor with heartbreak. While some might find the ending predictable, it's emotionally satisfying and leaves a lasting impression. A must-read for anyone who has ever loved or lost."</p>
+                            </div>
+                        </div>
+                        <div class="review-form">
+                            <div class="rating-container">
+                                <p>Rating : &nbsp;</p>
+                                <div class="rating">
+                                    <input value="10" name="rating" id="star10" type="radio">
+                                    <label for="star10"></label>
+                                    <input value="9" name="rating" id="star9" type="radio">
+                                    <label for="star9"></label>
+                                    <input value="8" name="rating" id="star8" type="radio">
+                                    <label for="star8"></label>
+                                    <input value="7" name="rating" id="star7" type="radio">
+                                    <label for="star7"></label>
+                                    <input value="6" name="rating" id="star6" type="radio">
+                                    <label for="star6"></label>
+                                    <input value="5" name="rating" id="star5" type="radio">
+                                    <label for="star5"></label>
+                                    <input value="4" name="rating" id="star4" type="radio">
+                                    <label for="star4"></label>
+                                    <input value="3" name="rating" id="star3" type="radio">
+                                    <label for="star3"></label>
+                                    <input value="2" name="rating" id="star2" type="radio">
+                                    <label for="star2"></label>
+                                    <input value="1" name="rating" id="star1" type="radio">
+                                    <label for="star1"></label>
+                                  </div>
+                            </div>
+                            <textarea name="" id=""></textarea>
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-book-most-reviewed-4">
+        <div class="overlay">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopupMostReviewed4()">&times;</div>
+                <div class="popup-container">
+                    <div class="content-section">
+                        <div class="content-poster pop-background-book">
+                            <div class="background-overlay"></div>
+                            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1495278054i/7896527.jpg " alt="">
+                        </div>
+                        <div class="content-text">
+                            <h3>Throne of Glass</h3>
+                            <h4>7 August 2012 &nbsp;&bull;&nbsp; Sarah J. Maas &nbsp;&bull;&nbsp; 406 pages</h4>
+                            <h5>Genres : <span>Romance &nbsp;&bull;&nbsp; Fiction &nbsp;&bull;&nbsp; Magic</span></h5> 
+                            <p style="font-size: 12px; margin-top: 4px;"><span style="color: orange;">&#9733;</span>&nbsp; 8.4 / 10</p>
+                            <p>In a land without magic, where the king rules with an iron hand, an assassin is summoned to the castle. She comes not to kill the king, but to win her freedom. If she defeats twenty-three killers, thieves, and warriors in a competition, she is released from prison to serve as the king's champion. Her name is Celaena Sardothien.
+                                The Crown Prince will provoke her. The Captain of the Guard will protect her. But something evil dwells in the castle of glass—and it's there to kill. When her competitors start dying one by one, Celaena's fight for freedom becomes a fight for survival, and a desperate quest to root out the evil before it destroys her world.</p>
+                        </div>
+                    </div>
+                    <div class="review-section">
+                        <div class="review-scroll">
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Olivia Moore &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The action sequences are thrilling, and the slow-burn romance adds intrigue.  However, the plot can be predictable at times, and the world-building is gradually revealed throughout the series.  This is a great introduction for readers who enjoy high-fantasy adventures with strong female leads."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Noah Thompson &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 7 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The magic system is intriguing, and the supporting characters are well-developed.  However, some readers might find the pacing slow at the beginning, and the romance takes a backseat to the competition plot.  "</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Liam Walker &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 6 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The action is engaging, and Celaena's fierce personality shines through.  However, the plot relies on tropes seen in other YA fantasy novels, and the world-building feels less fleshed out compared to other series."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Grace Sophie &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"While Throne of Glass might feel familiar in its initial setup - a talented yet troubled protagonist in a competition setting - Sarah J. Maas' writing keeps you hooked. The story unfolds at a steady pace, slowly revealing the intricacies of the world and the characters' motivations."</p>
+                            </div>
+                        </div>
+                        <div class="review-form">
+                            <div class="rating-container">
+                                <p>Rating : &nbsp;</p>
+                                <div class="rating">
+                                    <input value="10" name="rating" id="star10" type="radio">
+                                    <label for="star10"></label>
+                                    <input value="9" name="rating" id="star9" type="radio">
+                                    <label for="star9"></label>
+                                    <input value="8" name="rating" id="star8" type="radio">
+                                    <label for="star8"></label>
+                                    <input value="7" name="rating" id="star7" type="radio">
+                                    <label for="star7"></label>
+                                    <input value="6" name="rating" id="star6" type="radio">
+                                    <label for="star6"></label>
+                                    <input value="5" name="rating" id="star5" type="radio">
+                                    <label for="star5"></label>
+                                    <input value="4" name="rating" id="star4" type="radio">
+                                    <label for="star4"></label>
+                                    <input value="3" name="rating" id="star3" type="radio">
+                                    <label for="star3"></label>
+                                    <input value="2" name="rating" id="star2" type="radio">
+                                    <label for="star2"></label>
+                                    <input value="1" name="rating" id="star1" type="radio">
+                                    <label for="star1"></label>
+                                  </div>
+                            </div>
+                            <textarea name="" id=""></textarea>
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-book-most-reviewed-5">
+        <div class="overlay">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopupMostReviewed5()">&times;</div>
+                <div class="popup-container">
+                    <div class="content-section">
+                        <div class="content-poster pop-background-book">
+                            <div class="background-overlay"></div>
+                            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1459793538i/28763485.jpg " alt="">
+                        </div>
+                        <div class="content-text">
+                            <h3>The Sun Is Also a Star</h3>
+                            <h4>1 November 2016 &nbsp;&bull;&nbsp; Nicola Yoon &nbsp;&bull;&nbsp; 344 pages</h4>
+                            <h5>Genres : <span>Romance &nbsp;&bull;&nbsp; Young Adult  &nbsp;&bull;&nbsp; Contemporary</span></h5> 
+                            <p style="font-size: 12px; margin-top: 4px;"><span style="color: orange;">&#9733;</span>&nbsp; 8.0 / 10</p>
+                            <p>Natasha: I'm a girl who believes in science and facts. Not fate. Not destiny. Or dreams that will never come true. I'm definitely not the kind of girl who meets a 
+                                cute boy on a crowded New York City street and falls in love with him. Not when my family is twelve hours away from being deported to Jamaica. Falling in love with him wont be my story. <br>
+                                Daniel: I've always been the good son, the good student, living up to my parents' high expectations. Never the poet. Or the dreamer. But when I see her,
+                                 I forget about all that. Something about Natasha makes me think that fate has something much more extraordinary in store—for both of us. <br>
+                                The Universe: Every moment in our lives has brought us to this single moment. A million futures lie before us. Which one will come true?</p>
+                        </div>
+                    </div>
+                    <div class="review-section">
+                        <div class="review-scroll">
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Maya Ramirez &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Nicola Yoon's writing is vibrant and engaging, capturing the frenetic energy of the city and the intensity of their connection. The dual perspectives offer a glimpse into both their worlds and contrasting beliefs. However, the story unfolds quickly, leaving some aspects of the characters and the world underdeveloped."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Alex Chen &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 7 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The themes of immigration, family, and chasing dreams resonate deeply. However, the reliance on fate as a driving force might not appeal to everyone, and the ending, while impactful, could be interpreted as bittersweet."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Chloe Kim &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"While the focus is on the central romance, the deportation threat Daniel faces adds a layer of emotional complexity. This is a fantastic choice for readers who enjoy character-driven stories with thought-provoking themes."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Ethan Garcia &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">" Nicola Yoon masterfully balances humor, romance, and social commentary. The supporting characters, particularly Natasha's family, add warmth and humor to the story."</p>
+                            </div>
+                        </div>
+                        <div class="review-form">
+                            <div class="rating-container">
+                                <p>Rating : &nbsp;</p>
+                                <div class="rating">
+                                    <input value="10" name="rating" id="star10" type="radio">
+                                    <label for="star10"></label>
+                                    <input value="9" name="rating" id="star9" type="radio">
+                                    <label for="star9"></label>
+                                    <input value="8" name="rating" id="star8" type="radio">
+                                    <label for="star8"></label>
+                                    <input value="7" name="rating" id="star7" type="radio">
+                                    <label for="star7"></label>
+                                    <input value="6" name="rating" id="star6" type="radio">
+                                    <label for="star6"></label>
+                                    <input value="5" name="rating" id="star5" type="radio">
+                                    <label for="star5"></label>
+                                    <input value="4" name="rating" id="star4" type="radio">
+                                    <label for="star4"></label>
+                                    <input value="3" name="rating" id="star3" type="radio">
+                                    <label for="star3"></label>
+                                    <input value="2" name="rating" id="star2" type="radio">
+                                    <label for="star2"></label>
+                                    <input value="1" name="rating" id="star1" type="radio">
+                                    <label for="star1"></label>
+                                  </div>
+                            </div>
+                            <textarea name="" id=""></textarea>
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-book-most-reviewed-6">
+        <div class="overlay">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopupMostReviewed6()">&times;</div>
+                <div class="popup-container">
+                    <div class="content-section">
+                        <div class="content-poster pop-background-book">
+                            <div class="background-overlay"></div>
+                            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1491595510i/23513349.jpg " alt="">
+                        </div>
+                        <div class="content-text">
+                            <h3>Milk and honey </h3>
+                            <h4>4 November 2014 &nbsp;&bull;&nbsp; Rupi Kaur &nbsp;&bull;&nbsp; 204 pages</h4>
+                            <h5>Genres : <span>Nonfiction &nbsp;&bull;&nbsp; Poetry &nbsp;&bull;&nbsp; Feminism</span></h5> 
+                            <p style="font-size: 12px; margin-top: 4px;"><span style="color: orange;">&#9733;</span>&nbsp; 8.0 / 10</p>
+                            <p>"TMilk and Honey is a collection of poetry and prose about survival. About the experience of violence, abuse, love, loss, and femininity.
+                                It is split into four chapters, with each chapter dealing with a different pain. Healing a different heartache. Milk and Honey takes readers through a journey of the most bitter moments in life and finds sweetness in them -- because there is sweetness everywhere if you are just willing to look.</p>
+                        </div>
+                    </div>
+                    <div class="review-section">
+                        <div class="review-scroll">
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Layla Hassan &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Milk and honey by Rupi Kaur is a beautiful and raw collection of poems. It takes you on a journey through love, loss, abuse, femininity, and ultimately, healing. Kaur's words are simple yet powerful, capturing the essence of these complex emotions."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Benjamin Khan &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The poems are relatable and speak to the experiences of many women. However, some readers might find the lack of punctuation and structure challenging. It's best read slowly, savoring each line and allowing the imagery to sink in."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">EAva Lee &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 7 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The poems are short and easy to digest, making them perfect for quick bursts of inspiration or reflection.  However, some readers might find the repetitive themes and lack of narrative structure monotonous."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;"> Daniel Hernandez &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Milk and honey is a celebration of the feminine spirit. Rupi Kaur's poems explore themes of love, loss, strength, and resilience. The raw and honest language resonates deeply, particularly for women who have experienced similar struggles."</p>
+                            </div>
+                        </div>
+                        <div class="review-form">
+                            <div class="rating-container">
+                                <p>Rating : &nbsp;</p>
+                                <div class="rating">
+                                    <input value="10" name="rating" id="star10" type="radio">
+                                    <label for="star10"></label>
+                                    <input value="9" name="rating" id="star9" type="radio">
+                                    <label for="star9"></label>
+                                    <input value="8" name="rating" id="star8" type="radio">
+                                    <label for="star8"></label>
+                                    <input value="7" name="rating" id="star7" type="radio">
+                                    <label for="star7"></label>
+                                    <input value="6" name="rating" id="star6" type="radio">
+                                    <label for="star6"></label>
+                                    <input value="5" name="rating" id="star5" type="radio">
+                                    <label for="star5"></label>
+                                    <input value="4" name="rating" id="star4" type="radio">
+                                    <label for="star4"></label>
+                                    <input value="3" name="rating" id="star3" type="radio">
+                                    <label for="star3"></label>
+                                    <input value="2" name="rating" id="star2" type="radio">
+                                    <label for="star2"></label>
+                                    <input value="1" name="rating" id="star1" type="radio">
+                                    <label for="star1"></label>
+                                  </div>
+                            </div>
+                            <textarea name="" id=""></textarea>
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-book-most-reviewed-7">
+        <div class="overlay">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopupMostReviewed7()">&times;</div>
+                <div class="popup-container">
+                    <div class="content-section">
+                        <div class="content-poster pop-background-book">
+                            <div class="background-overlay"></div>
+                            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1567840212i/10572.jpg " alt="">
+                        </div>
+                        <div class="content-text">
+                            <h3>A Clash of Kings</h3>
+                            <h4>16 November 1998 &nbsp;&bull;&nbsp; George R.R. Martin &nbsp;&bull;&nbsp; 1009 pages</h4>
+                            <h5>Genres : <span>Fiction &nbsp;&bull;&nbsp; Fantasy &nbsp;&bull;&nbsp; Epic Fantasy</span></h5> 
+                            <p style="font-size: 12px; margin-top: 4px;"><span style="color: orange;">&#9733;</span>&nbsp; 8.8 / 10</p>
+                            <p>A comet the color of blood and flame cuts across the sky. Two great leaders—Lord Eddard Stark and Robert Baratheon—who 
+                                hold sway over an age of enforced peace are dead, victims of royal treachery. Now, from the ancient citadel of Dragonstone 
+                                to the forbidding shores of Winterfell, chaos reigns. Six factions struggle for control of a divided land and the Iron Throne 
+                                of the Seven Kingdoms, preparing to stake their claims through tempest, turmoil, and war.</p>
+                        </div>
+                    </div>
+                    <div class="review-section">
+                        <div class="review-scroll">
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Beatrice Dubois &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"George R.R. Martin masterfully crafts a world where no one is safe, and even the most beloved characters can face shocking fates. The multiple character perspectives offer a rich tapestry of experiences and motivations. However, the sheer number of characters and storylines can be overwhelming at times."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">William Jones &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"A Clash of Kings throws you headfirst into the brutal reality of war. Battles are visceral and unforgiving, showcasing the true cost of power struggles. Martin doesn't shy away from violence or morally ambiguous characters, making the story feel refreshingly realistic."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Olivia Clarke &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 10 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"This sequel delves deeper into the characters' motivations and the complexities of war. We see how loyalties are tested, sacrifices are made, and alliances crumble. The introduction of new characters and plotlines keeps the story fresh, but it can also feel overwhelming at times."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Matthew Evans &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"Martin's writing is masterful, creating a sense of suspense and dread that keeps you on the edge of your seat. The magic system remains subtle but intriguing, adding another layer to the world-building."</p>
+                            </div>
+                        </div>
+                        <div class="review-form">
+                            <div class="rating-container">
+                                <p>Rating : &nbsp;</p>
+                                <div class="rating">
+                                    <input value="10" name="rating" id="star10" type="radio">
+                                    <label for="star10"></label>
+                                    <input value="9" name="rating" id="star9" type="radio">
+                                    <label for="star9"></label>
+                                    <input value="8" name="rating" id="star8" type="radio">
+                                    <label for="star8"></label>
+                                    <input value="7" name="rating" id="star7" type="radio">
+                                    <label for="star7"></label>
+                                    <input value="6" name="rating" id="star6" type="radio">
+                                    <label for="star6"></label>
+                                    <input value="5" name="rating" id="star5" type="radio">
+                                    <label for="star5"></label>
+                                    <input value="4" name="rating" id="star4" type="radio">
+                                    <label for="star4"></label>
+                                    <input value="3" name="rating" id="star3" type="radio">
+                                    <label for="star3"></label>
+                                    <input value="2" name="rating" id="star2" type="radio">
+                                    <label for="star2"></label>
+                                    <input value="1" name="rating" id="star1" type="radio">
+                                    <label for="star1"></label>
+                                  </div>
+                            </div>
+                            <textarea name="" id=""></textarea>
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-book-most-reviewed-8">
+        <div class="overlay">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopupMostReviewed8()">&times;</div>
+                <div class="popup-container">
+                    <div class="content-section">
+                        <div class="content-poster pop-background-book">
+                            <div class="background-overlay"></div>
+                            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1562726234i/13496.jpg " alt="">
+                        </div>
+                        <div class="content-text">
+                            <h3>George R.R. Martin</h3>
+                            <h4>6 August 1996 &nbsp;&bull;&nbsp; George R.R. Martin &nbsp;&bull;&nbsp; 835 pages</h4>
+                            <h5>Genres : <span>Fantasy &nbsp;&bull;&nbsp; Fiction &nbsp;&bull;&nbsp; Adventure</span></h5> 
+                            <p style="font-size: 12px; margin-top: 4px;"><span style="color: orange;">&#9733;</span>&nbsp; 8.8 / 10</p>
+                            <p>
+                                Sweeping from a harsh land of cold to a summertime kingdom of epicurean plenty, A Game of Thrones tells a tale 
+                                of lords and ladies, soldiers and sorcerers, assassins and bastards, who come together in a time of grim omens. 
+                                Here an enigmatic band of warriors bear swords of no human metal; a tribe of fierce wildlings carry men off into 
+                                madness; a cruel young dragon prince barters his sister to win back his throne; a child is lost in the twilight between 
+                                life and death; and a determined woman undertakes a treacherous journey to protect all she holds dear.</p>
+                        </div>
+                    </div>
+                    <div class="review-section">
+                        <div class="review-scroll">
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Darcy Whitney &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 9 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The multiple storylines keep you hooked, and the threat of winter adds a constant sense of unease. The introduction of the Stark family is particularly captivating, drawing you into their struggles for power and survival."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Christian Arnold &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"This book is a fantastic introduction to A Song of Ice and Fire series. Martin masterfully weaves together multiple storylines across Westeros and Essos, creating a sense of vastness and impending conflict. The political intrigue is complex and engaging, and the characters are all morally ambiguous, making them unpredictable and fascinating."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">Clara Johnson &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 7 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">"The world feels real and gritty, with a constant sense of danger lurking beneath the surface. However, the multiple storylines and slow pacing can be challenging to follow at times.  If you're looking for a fast-paced adventure story, this might not be it."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="profile-section">
+                                    <img src="../Assets/circle-icon.png" alt="">
+                                    <p style="margin-right: 4px;">David Patel &nbsp;</p>
+                                    <p style="font-size: 12px;"><span style="color: orange;font-size: 14px;">&#9733;</span> 8 / 10</p>
+                                </div>
+                                <p style="margin-top: 8px;">" Game of Thrones is the beginning of an investment, but it's an investment worth taking.  While the first book lays the groundwork for the larger conflict, it also delivers a captivating story on its own. The characters are well-developed and relatable, and the political intrigue is both complex and thrilling."</p>
+                            </div>
+                        </div>
+                        <div class="review-form">
+                            <div class="rating-container">
+                                <p>Rating : &nbsp;</p>
+                                <div class="rating">
+                                    <input value="10" name="rating" id="star10" type="radio">
+                                    <label for="star10"></label>
+                                    <input value="9" name="rating" id="star9" type="radio">
+                                    <label for="star9"></label>
+                                    <input value="8" name="rating" id="star8" type="radio">
+                                    <label for="star8"></label>
+                                    <input value="7" name="rating" id="star7" type="radio">
+                                    <label for="star7"></label>
+                                    <input value="6" name="rating" id="star6" type="radio">
+                                    <label for="star6"></label>
+                                    <input value="5" name="rating" id="star5" type="radio">
+                                    <label for="star5"></label>
+                                    <input value="4" name="rating" id="star4" type="radio">
+                                    <label for="star4"></label>
+                                    <input value="3" name="rating" id="star3" type="radio">
+                                    <label for="star3"></label>
+                                    <input value="2" name="rating" id="star2" type="radio">
+                                    <label for="star2"></label>
+                                    <input value="1" name="rating" id="star1" type="radio">
+                                    <label for="star1"></label>
+                                  </div>
+                            </div>
+                            <textarea name="" id=""></textarea>
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="trending-list">
+        <div class="trending-container">
+            <div class="book-container">
+                <div class="book-container-up">
+                    <h3 class="sub-title">Trending</h3>
+                    <a href="" class="sub-title">See more</a>
+                </div>
+                <hr>
+                <div class="book-cards">
+                    <div class="book-card" onclick="togglePopupTrending1()">
+                        <img src="https://images3.penguinrandomhouse.com/cover/9781984898951" alt="">
+                        <div class="book-card-text">
+                            <p class="title">Crying in H Mart</p>
+                            <p><span>&#9733;</span> 8.6 / 10</p>
+                        </div>
+                    </div>
+                    <div class="book-card" onclick="togglePopupTrending2()">
+                        <img src="https://images1.penguinrandomhouse.com/cover/9780593328798" alt="">
+                        <div class="book-card-text">
+                            <p class="title">Age of Vice</p>
+                            <p><span>&#9733;</span> 7.2 / 10</p>
+                        </div>
+                    </div>
+                    <div class="book-card" onclick="togglePopupTrending3()">
+                        <img src="https://images1.penguinrandomhouse.com/cover/9780593321201" alt="">
+                        <div class="book-card-text">
+                            <p class="title">Tomorrow, and Tomorrow, and Tomorrow</p>
+                            <p><span>&#9733;</span> 8.4 / 10</p>
+                        </div>
+                    </div>
+                    <div class="book-card" onclick="togglePopupTrending4()">
+                        <img src="https://images1.penguinrandomhouse.com/cover/9780593593806 " alt="">
+                        <div class="book-card-text">
+                            <p class="title">Spare</p>
+                            <p><span>&#9733;</span> 7.8 / 10</p>
+                        </div>
+                    </div>
+                    <div class="book-card" onclick="togglePopupTrending5()">
+                        <img src="https://images2.penguinrandomhouse.com/cover/9780593496220" alt="">
+                        <div class="book-card-text">
+                            <p class="title">Violeta</p>
+                            <p><span>&#9733;</span> 8 / 10</p>
+                        </div>
+                    </div>
+                    <div class="book-card" onclick="togglePopupTrending6()">
+                        <img src="https://images1.penguinrandomhouse.com/cover/9780593111994" alt="">
+                        <div class="book-card-text">
+                            <p class="title">The Girl I Am, Was, and Never Will Be</p>
+                            <p><span>&#9733;</span> 7.8 / 10</p>
+                        </div>
+                    </div>
+                    <div class="book-card" onclick="togglePopupTrending7()">
+                        <img src="https://images1.penguinrandomhouse.com/cover/9780804172707 " alt="">
+                        <div class="book-card-text">
+                            <p class="title">A Little Life</p>
+                            <p><span>&#9733;</span> 8.6 / 10</p>
+                        </div>
+                    </div>
+                    <div class="book-card" onclick="togglePopupTrending8()">
+                        <img src="https://images2.penguinrandomhouse.com/cover/9780593545409" alt="">
+                        <div class="book-card-text">
+                            <p class="title">Build the Life You Want</p>
+                            <p><span>&#9733;</span> 7.6 / 10</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="best-seller-list">
+        <div class="best-seller-container">
+            <div class="book-container">
+                <div class="book-container-up">
+                    <h3 class="sub-title">Best Seller</h3>
+                    <a href="" class="sub-title">See more</a>
+                </div>
+                <hr>
+                <div class="book-cards">
+                    <div class="book-card" onclick="togglePopupBestSeller1()">
+                        <img src="https://images3.penguinrandomhouse.com/cover/9788491050759" alt="">
+                        <div class="book-card-text">
+                            <p>Don Quixote (1605)</p>
+                            <p><span>&#9733;</span> 7.8 / 10</p>
+                        </div>
+                    </div>
+                    <div class="book-card" onclick="togglePopupBestSeller2()">
+                        <img src="https://images1.penguinrandomhouse.com/cover/9780345529640 " alt="">
+                        <div class="book-card-text">
+                            <p>A Tale of Two Cities (1859)</p>
+                            <p><span>&#9733;</span> 7.8 / 10</p>
+                        </div>
+                    </div>
+                    <div class="book-card" onclick="togglePopupBestSeller3()">
+                        <img src="https://images4.penguinrandomhouse.com/cover/9789877514308 " alt="">
+                        <div class="book-card-text">
+                            <p>A Little Prince (1943)</p>
+                            <p><span>&#9733;</span> 8.6 / 10</p>
+                        </div>
+                    </div>
+                    <div class="book-card" onclick="togglePopupBestSeller4()">
+                        <img src="https://upload.wikimedia.org/wikipedia/id/b/bf/Harry_Potter_and_the_Sorcerer%27s_Stone.jpg " alt="">
+                        <div class="book-card-text">
+                            <p>Harry Potter and the Sorcerer's Stone (1997)</p>
+                            <p><span>&#9733;</span> 9 / 10</p>
+                        </div>
+                    </div>
+                    <div class="book-card" onclick="togglePopupBestSeller5()">
+                        <img src="https://akcdn.detik.net.id/community/media/visual/2024/01/26/novel-grafis-the-hobbit.jpeg?w=700&q=90 " alt="">
+                        <div class="book-card-text">
+                            <p>The Hobbit (1937)</p>
+                            <p><span>&#9733;</span> 8.6 / 10</p>
+                        </div>
+                    </div>
+                    <div class="book-card" onclick="togglePopupBestSeller6()">
+                        <img src="https://images4.penguinrandomhouse.com/cover/9780307277671 " alt="">
+                        <div class="book-card-text">
+                            <p>The Da Vinci Code (2003)</p>
+                            <p><span>&#9733;</span> 7.8 / 10</p>
+                        </div>
+                    </div>
+                    <div class="book-card" onclick="togglePopupBestSeller7()">
+                        <img src="https://images4.penguinrandomhouse.com/cover/9781585424337 " alt="">
+                        <div class="book-card-text">
+                            <p>Think and Grow Rich (1937)</p>
+                            <p><span>&#9733;</span> 8.4 / 10</p>
+                        </div>
+                    </div>
+                    <div class="book-card" onclick="togglePopupBestSeller8()">
+                        <img src="https://ebooks.gramedia.com/ebook-covers/29408/big_covers/ID_HCO2015MTH12TALC.jpeg " alt="">
+                        <div class="book-card-text">
+                            <p>The Alchemist (1988)</p>
+                            <p><span>&#9733;</span> 7.8 / 10</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="most-reviewed-list">
+        <div class="most-reviewed-container">
+            <div class="book-container">
+                <div class="book-container-up">
+                    <h3 class="sub-title">Most Reviewed</h3>
+                    <a href="" class="sub-title">See more</a>
+                </div>
+                <hr>
+                <div class="book-cards">
+                    <div class="book-card" onclick="togglePopupMostReviewed1()">
+                        <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1681839850i/21853621.jpg" alt="">
+                        <div class="book-card-text">
+                            <p>The Nightingale (2015)</p>
+                            <p><span>&#9733;</span> 9.2 / 10</p>
+                        </div>
+                    </div>
+                    <div class="book-card" onclick="togglePopupMostReviewed2()">
+                        <img src="https://cdn.gramedia.com/uploads/items/1984.jpg" alt="">
+                        <div class="book-card-text">
+                            <p>1984 (1949)</p>
+                            <p><span>&#9733;</span> 8.4 / 10</p>
+                        </div>
+                    </div>
+                    <div class="book-card" onclick="togglePopupMostReviewed3()">
+                        <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1660273739i/11870085.jpg" alt="">
+                        <div class="book-card-text">
+                            <p>The Fault in Our Stars (2012)</p>
+                            <p><span>&#9733;</span> 8.2 / 10</p>
+                        </div>
+                    </div>
+                    <div class="book-card" onclick="togglePopupMostReviewed4()">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvXqYiNRRw-sx-nPpwPr1V_7YJxWFDqDqZktsItZFPTA&s" alt="">
+                        <div class="book-card-text">
+                            <p>Throne of Glass (2012)</p>
+                            <p><span>&#9733;</span> 8.4 / 10</p>
+                        </div>
+                    </div>
+                    <div class="book-card" onclick="togglePopupMostReviewed5()">
+                        <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1459793538i/28763485.jpg" alt="">
+                        <div class="book-card-text">
+                            <p>The Sun Is Also a Star (2016)</p>
+                            <p><span>&#9733;</span> 8.0 / 10</p>
+                        </div>
+                    </div>
+                    <div class="book-card" onclick="togglePopupMostReviewed6()">
+                        <img src="https://www.gramedia.com/blog/content/images/2022/05/milk-and-honey.jpg" alt="">
+                        <div class="book-card-text">
+                            <p>Milk and honey (2014)</p>
+                            <p><span>&#9733;</span> 8.0 / 10</p>
+                        </div>
+                    </div>
+                    <div class="book-card" onclick="togglePopupMostReviewed7()">
+                        <img src="https://m.media-amazon.com/images/I/71R9pRtC6AL._AC_UF1000,1000_QL80_.jpg" alt="">
+                        <div class="book-card-text">
+                            <p>A Clash of Kings (1998)</p>
+                            <p><span>&#9733;</span> 8.8 / 10</p>
+                        </div>
+                    </div>
+                    <div class="book-card" onclick="togglePopupMostReviewed8()">
+                        <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1562726234l/13496.jpg" alt="">
+                        <div class="book-card-text">
+                            <p>A Game of Thrones (1996)</p>
+                            <p><span>&#9733;</span> 8.8 / 10</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+    <footer>
+        <div class="footer-container">
+            <div class="logo">
+                <img src="../Assets/Logo Icon.png" alt="logo icon">
+                <b>Review<span>Verse</span></b>
+            </div>
+            <div class="menu-option">
+                <a href="../Home Page/index.html">Home</a>
+                <a href="../Movie Page/index.html">Movie</a>
+                <a href="../Music Page/index.html">Music</a>
+                <a href="../Book Page/index.html">book</a>
+                <a href="../News Page/index.html">News</a>
+            </div>
+            <div class="social-media-container">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+        </div>
+        <h3>&copy; 2024 Group 3 - Web Based Application Development LA11 LEC. All rights reserved.</h3>
+    </footer>
+
+</body>
+    <script src="script.js"></script>
+</html>

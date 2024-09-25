@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReviewVerse | Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="x-icon" href="../Assets/Logo Icon - Primary.png">
+</head>
+<body>
+
+    <section>
+        <div class="form-container">
+            <div class="close-btn" id="close-btn">&times;</div>
+            <div class="logo">
+                <img src="../Assets/Logo Icon.png" alt="logo icon">
+                <b>Review<span>Verse</span></b>
+            </div>
+            <h1>Let's get started by sign up now</h1>
+            <form action="../index.html" onsubmit="return submitForm()">
+                <div class="fullname">
+                    <label for="fullname">Fullname</label><br>
+                    <input type="text" name="fullname" id="fullname">
+                    <div id="error-fullname"></div>
+                </div>
+                <div class="username">
+                    <label for="username">Username</label><br>
+                    <input type="text" name="username" id="username">
+                    <div id="error-username"></div>
+                </div>
+                <div class="email">
+                    <label for="email">Email</label><br>
+                    <input type="text" name="email" id="email">
+                    <div id="error-email"></div>
+                </div>
+                <div class="password">
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" id="password">
+                    <div id="error-password"></div>
+                </div>
+                <div class="confirm-password">
+                    <label for="confirm-password">Confirm password</label><br>
+                    <input type="password" name="confirm-password" id="confirm-password">
+                    <div id="error-conf-password"></div>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" name="checkbox" id="checkbox"><label for="checkbox">I agree with privacy and policy</label>
+                </div>
+                <div id="error-checkbox"></div>
+                <input type="submit" value="Sign Up">
+            </form>
+            <p>Already have an account ? <a href="../Sign In Page/index.html">Sign In</a></p>
+        </div>
+    </section>
+
+</body>
+    <script src="script.js"></script>  
+</html>

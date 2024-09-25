@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReviewVerse | Sign In</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="x-icon" href="../Assets/Logo Icon - Primary.png">
+</head>
+<body>
+
+    <section>
+        <div class="form-container">
+            <div class="close-btn" id="close-btn">&times;</div>
+            <div class="logo">
+                <img src="../Assets/Logo Icon.png" alt="logo icon">
+                <b>Review<span>Verse</span></b>
+            </div>
+            <h1>Welcome back! sign in to your account</h1>
+            <form action="../index.html" onsubmit="return submitForm()">
+                <div class="username">
+                    <label for="username">Username</label><br>
+                    <input type="text" name="username" id="username">
+                    <div id="error-username"></div>
+                </div>
+                <div class="password">
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" id="password">
+                    <div id="error-password"></div>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" name="checkbox" id="checkbox"><label for="checkbox">Remember me</label><br>
+                    <p class="forgot-password"><a href="">forgot password?</a></p>
+                </div>
+                <input type="submit" value="Sign In">
+            </form>
+            <p>&#9472;&#9472;&#9472; Or &#9472;&#9472;&#9472;</p>
+            <div class="button">
+                <button class="facebook-button"><img src="../Assets/facebook logo.png" alt="">Facebook</button>
+                <button class="google-button"><img src="../Assets/google logo.png" alt="">Google</button>
+                <button class="apple-button"><img src="../Assets/apple.png" alt="">Apple</button>
+            </div>
+            <p>Don't have an account ? <a href="../Sign Up Page/index.html">Sign Up</a></p>
+        </div>
+    </section>
+    
+</body>
+    <script src="script.js"></script>
+</html>
